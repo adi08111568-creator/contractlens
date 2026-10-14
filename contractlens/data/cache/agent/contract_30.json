@@ -1,0 +1,295 @@
+{
+  "contract": "contract_30",
+  "fields": {
+    "payer_name": {
+      "value": "Lakeshore Health Insurance Co.",
+      "quote": "Lakeshore Health Insurance Co. (\"Plan\")",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "provider_name": {
+      "value": "Tamarack Oncology Partners",
+      "quote": "Tamarack Oncology Partners (\"Provider\")",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "effective_date": {
+      "value": "2024-05-10",
+      "quote": "entered into as of May 10, 2024 (the \"Effective Date\")",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "expiry_date": {
+      "value": "2028-05-09",
+      "quote": "initial term of 4 years, expiring on May 9, 2028.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "auto_renewal": {
+      "value": false,
+      "quote": "1.2 Renewal. This Agreement shall not renew automatically. Any extension beyond the initial term requires a written amendment signed by both parties.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "termination_notice_days": {
+      "value": 90,
+      "quote": "1.3 Termination Without Cause. Either party may terminate this Agreement without cause upon 90 days prior written notice to the other party.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "inpatient_per_diem_usd": {
+      "value": 2175,
+      "quote": "2.1 Inpatient Services. Plan shall reimburse Provider for covered acute medical/surgical inpatient services at a per diem rate of $2,175 per day.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "outpatient_pct_of_medicare": {
+      "value": 150,
+      "quote": "2.2 Outpatient Services. Plan shall reimburse Provider for covered general outpatient services at 150% of the then-current Medicare fee schedule.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "clean_claim_payment_days": {
+      "value": 20,
+      "quote": "3.1 Payment of Clean Claims. Plan shall pay each clean claim within 20 days after receipt.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "timely_filing_days": {
+      "value": 180,
+      "quote": "3.2 Timely Filing. Provider shall submit claims within 180 days after the date of service.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "credentialing_sla_days": {
+      "value": 30,
+      "quote": "4.1 Plan shall complete credentialing of Provider's practitioners within 30 days after receipt of a complete application.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "governing_law": {
+      "value": "Tennessee",
+      "quote": "5.1 Governing Law. This Agreement is governed by the laws of the State of Tennessee.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    }
+  },
+  "stop_reason": "finished",
+  "steps": 3,
+  "validation_issues_caught": 0,
+  "auto_fields": 12,
+  "review_fields": 0,
+  "tokens": {
+    "prompt": 7625,
+    "output": 739
+  },
+  "trace": [
+    {
+      "step": 1,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 0
+          },
+          "result": {
+            "chunk_id": 0,
+            "text": "Synthetic sample contract for demonstration only - all parties are fictional.\nPage 1"
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 1
+          },
+          "result": {
+            "chunk_id": 1,
+            "text": "PROVIDER PARTICIPATION AGREEMENT\nThis Provider Participation Agreement (the \"Agreement\") is entered into as of May 10, 2024 (the \"Effective\nDate\") by and between Lakeshore Health Insurance Co. (\"Plan\") and Tamarack Oncology Partners\n(\"Provider\")."
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 2
+          },
+          "result": {
+            "chunk_id": 2,
+            "text": "ARTICLE I - TERM AND TERMINATION\n1.1 Initial Term. This Agreement commences on the Effective Date and continues for an initial term of 4\nyears, expiring on May 9, 2028.\n1.2 Renewal. This Agreement shall not renew automatically. Any extension beyond the initial term requires\na written amendment signed by both parties.\n1.3 Termination Without Cause. Either party may terminate this Agreement without cause upon 90 days\nprior written notice to the other party."
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 3
+          },
+          "result": {
+            "chunk_id": 3,
+            "text": "ARTICLE II - COMPENSATION\n2.1 Inpatient Services. Plan shall reimburse Provider for covered acute medical/surgical inpatient services at\na per diem rate of $2,175 per day. Behavioral health inpatient services are reimbursed at $2,575 per day.\n2.2 Outpatient Services. Plan shall reimburse Provider for covered general outpatient services at 150% of the\nthen-current Medicare fee schedule. Emergency department services are reimbursed at 160% of the\nMedicare fee schedule."
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 4
+          },
+          "result": {
+            "chunk_id": 4,
+            "text": "ARTICLE III - CLAIMS\n3.1 Payment of Clean Claims. Plan shall pay each clean claim within 20 days after receipt.\n3.2 Timely Filing. Provider shall submit claims within 180 days after the date of service. Claim denials may\nbe appealed within 150 days of the denial notice."
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 5
+          },
+          "result": {
+            "chunk_id": 5,
+            "text": "ARTICLE IV - CREDENTIALING\n4.1 Plan shall complete credentialing of Provider's practitioners within 30 days after receipt of a complete\napplication."
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 6
+          },
+          "result": {
+            "chunk_id": 6,
+            "text": "ARTICLE V - GENERAL PROVISIONS\n5.1 Governing Law. This Agreement is governed by the laws of the State of Tennessee.\nConfidentiality. Each party shall keep the financial terms of this Agreement confidential and shall disclose\nthem only as required by law.\nInsurance. Provider shall maintain professional liability insurance of not less than $1,000,000 per\noccurrence.\nRecords. Each party shall retain records relating to services for 7 years following the date of service.\nDisputes. The parties shall attempt in good faith to resolve any dispute through informal negotiation for up\nto 30 days before pursuing other remedies.\nIN WITNESS WHEREOF, the parties have executed this Agreement as of the Effective Date."
+          }
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "submit_fields",
+          "args": {
+            "fields": [
+              {
+                "quote": "Lakeshore Health Insurance Co. (\"Plan\")",
+                "value": "Lakeshore Health Insurance Co.",
+                "confidence": 1,
+                "field": "payer_name"
+              },
+              {
+                "field": "provider_name",
+                "confidence": 1,
+                "quote": "Tamarack Oncology Partners (\"Provider\")",
+                "value": "Tamarack Oncology Partners"
+              },
+              {
+                "quote": "entered into as of May 10, 2024 (the \"Effective Date\")",
+                "value": "2024-05-10",
+                "confidence": 1,
+                "field": "effective_date"
+              },
+              {
+                "value": "2028-05-09",
+                "quote": "initial term of 4 years, expiring on May 9, 2028.",
+                "field": "expiry_date",
+                "confidence": 1
+              },
+              {
+                "field": "auto_renewal",
+                "value": "false",
+                "confidence": 1,
+                "quote": "1.2 Renewal. This Agreement shall not renew automatically. Any extension beyond the initial term requires a written amendment signed by both parties."
+              },
+              {
+                "quote": "1.3 Termination Without Cause. Either party may terminate this Agreement without cause upon 90 days prior written notice to the other party.",
+                "value": "90",
+                "confidence": 1,
+                "field": "termination_notice_days"
+              },
+              {
+                "quote": "2.1 Inpatient Services. Plan shall reimburse Provider for covered acute medical/surgical inpatient services at a per diem rate of $2,175 per day.",
+                "value": "2175",
+                "confidence": 1,
+                "field": "inpatient_per_diem_usd"
+              },
+              {
+                "value": "150",
+                "quote": "2.2 Outpatient Services. Plan shall reimburse Provider for covered general outpatient services at 150% of the then-current Medicare fee schedule.",
+                "confidence": 1,
+                "field": "outpatient_pct_of_medicare"
+              },
+              {
+                "field": "clean_claim_payment_days",
+                "value": "20",
+                "confidence": 1,
+                "quote": "3.1 Payment of Clean Claims. Plan shall pay each clean claim within 20 days after receipt."
+              },
+              {
+                "field": "timely_filing_days",
+                "value": "180",
+                "confidence": 1,
+                "quote": "3.2 Timely Filing. Provider shall submit claims within 180 days after the date of service."
+              },
+              {
+                "value": "30",
+                "quote": "4.1 Plan shall complete credentialing of Provider's practitioners within 30 days after receipt of a complete application.",
+                "confidence": 1,
+                "field": "credentialing_sla_days"
+              },
+              {
+                "field": "governing_law",
+                "confidence": 1,
+                "value": "Tennessee",
+                "quote": "5.1 Governing Law. This Agreement is governed by the laws of the State of Tennessee."
+              }
+            ]
+          },
+          "result": {
+            "verified": [
+              "payer_name",
+              "provider_name",
+              "effective_date",
+              "expiry_date",
+              "auto_renewal",
+              "termination_notice_days",
+              "inpatient_per_diem_usd",
+              "outpatient_pct_of_medicare",
+              "clean_claim_payment_days",
+              "timely_filing_days",
+              "credentialing_sla_days",
+              "governing_law"
+            ],
+            "issues": [],
+            "missing": [],
+            "flagged": [],
+            "next": "all fields verified - call finish"
+          }
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "finish",
+          "args": {},
+          "result": {
+            "status": "done"
+          }
+        }
+      ]
+    }
+  ],
+  "model": "gemini-3.1-flash-lite"
+}

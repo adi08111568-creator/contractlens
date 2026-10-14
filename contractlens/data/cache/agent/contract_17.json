@@ -1,0 +1,255 @@
+{
+  "contract": "contract_17",
+  "fields": {
+    "payer_name": {
+      "value": "Cobalt Mutual Health",
+      "quote": "Payer\nCobalt Mutual Health",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "provider_name": {
+      "value": "Brightwater Surgical Center",
+      "quote": "Provider\nBrightwater Surgical Center",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "effective_date": {
+      "value": "2021-02-09",
+      "quote": "Effective Date\n09 Feb 2021",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "expiry_date": {
+      "value": "2024-02-08",
+      "quote": "Expiration Date\n08 Feb 2024",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "auto_renewal": {
+      "value": true,
+      "quote": "Renewal\nEvergreen - renews automatically for successive 12-month periods",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "termination_notice_days": {
+      "value": 120,
+      "quote": "Termination Without Cause\n120 days written notice",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "inpatient_per_diem_usd": {
+      "value": 1900,
+      "quote": "Inpatient - Acute (Med/Surg)\nPer diem\n$1,900 / day",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "outpatient_pct_of_medicare": {
+      "value": 100,
+      "quote": "Outpatient - General\n% of Medicare fee schedule\n100%",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "clean_claim_payment_days": {
+      "value": 45,
+      "quote": "Clean claim payment\nWithin 45 calendar days of receipt",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "timely_filing_days": {
+      "value": 180,
+      "quote": "Timely filing\n180 days from date of service",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "credentialing_sla_days": {
+      "value": 60,
+      "quote": "Credentialing turnaround\n60 days from complete application",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "governing_law": {
+      "value": "North Carolina",
+      "quote": "Governing law\nState of North Carolina",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    }
+  },
+  "stop_reason": "finished",
+  "steps": 3,
+  "validation_issues_caught": 0,
+  "auto_fields": 12,
+  "review_fields": 0,
+  "tokens": {
+    "prompt": 6678,
+    "output": 547
+  },
+  "trace": [
+    {
+      "step": 1,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 3
+          },
+          "result": {
+            "chunk_id": 3,
+            "text": "SECTION 1 - AGREEMENT PARTICULARS\nItem\nDetail\nPayer\nCobalt Mutual Health\nProvider\nBrightwater Surgical Center\nEffective Date\n09 Feb 2021\nTerm\n3 years\nExpiration Date\n08 Feb 2024\nRenewal\nEvergreen - renews automatically for successive 12-month periods\nTermination Without Cause\n120 days written notice"
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 4
+          },
+          "result": {
+            "chunk_id": 4,
+            "text": "EXHIBIT A - RATE SCHEDULE\nService Category\nMethodology\nRate\nInpatient - Acute (Med/Surg)\nPer diem\n$1,900 / day\nInpatient - Behavioral Health\nPer diem\n$2,200 / day\nOutpatient - General\n% of Medicare fee schedule\n100%\nEmergency Department\n% of Medicare fee schedule\n90%"
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 5
+          },
+          "result": {
+            "chunk_id": 5,
+            "text": "EXHIBIT B - ADMINISTRATIVE TERMS\nItem\nTerm\nClean claim payment\nWithin 45 calendar days of receipt\nTimely filing\n180 days from date of service\nAppeals window\n270 days from denial notice\nCredentialing turnaround\n60 days from complete application\nGoverning law\nState of North Carolina\nConfidentiality. Each party shall keep the financial terms of this Agreement confidential and shall disclose\nthem only as required by law.\nInsurance. Provider shall maintain professional liability insurance of not less than $1,000,000 per\noccurrence."
+          }
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "submit_fields",
+          "args": {
+            "fields": [
+              {
+                "value": "Cobalt Mutual Health",
+                "field": "payer_name",
+                "confidence": 1,
+                "quote": "Payer\nCobalt Mutual Health"
+              },
+              {
+                "quote": "Provider\nBrightwater Surgical Center",
+                "value": "Brightwater Surgical Center",
+                "field": "provider_name",
+                "confidence": 1
+              },
+              {
+                "confidence": 1,
+                "field": "effective_date",
+                "value": "2021-02-09",
+                "quote": "Effective Date\n09 Feb 2021"
+              },
+              {
+                "confidence": 1,
+                "value": "2024-02-08",
+                "field": "expiry_date",
+                "quote": "Expiration Date\n08 Feb 2024"
+              },
+              {
+                "value": "true",
+                "field": "auto_renewal",
+                "quote": "Renewal\nEvergreen - renews automatically for successive 12-month periods",
+                "confidence": 1
+              },
+              {
+                "quote": "Termination Without Cause\n120 days written notice",
+                "field": "termination_notice_days",
+                "value": "120",
+                "confidence": 1
+              },
+              {
+                "confidence": 1,
+                "quote": "Inpatient - Acute (Med/Surg)\nPer diem\n$1,900 / day",
+                "field": "inpatient_per_diem_usd",
+                "value": "1900"
+              },
+              {
+                "quote": "Outpatient - General\n% of Medicare fee schedule\n100%",
+                "field": "outpatient_pct_of_medicare",
+                "value": "100",
+                "confidence": 1
+              },
+              {
+                "value": "45",
+                "field": "clean_claim_payment_days",
+                "quote": "Clean claim payment\nWithin 45 calendar days of receipt",
+                "confidence": 1
+              },
+              {
+                "quote": "Timely filing\n180 days from date of service",
+                "confidence": 1,
+                "value": "180",
+                "field": "timely_filing_days"
+              },
+              {
+                "quote": "Credentialing turnaround\n60 days from complete application",
+                "confidence": 1,
+                "field": "credentialing_sla_days",
+                "value": "60"
+              },
+              {
+                "quote": "Governing law\nState of North Carolina",
+                "confidence": 1,
+                "value": "North Carolina",
+                "field": "governing_law"
+              }
+            ]
+          },
+          "result": {
+            "verified": [
+              "payer_name",
+              "provider_name",
+              "effective_date",
+              "expiry_date",
+              "auto_renewal",
+              "termination_notice_days",
+              "inpatient_per_diem_usd",
+              "outpatient_pct_of_medicare",
+              "clean_claim_payment_days",
+              "timely_filing_days",
+              "credentialing_sla_days",
+              "governing_law"
+            ],
+            "issues": [],
+            "missing": [],
+            "flagged": [],
+            "next": "all fields verified - call finish"
+          }
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "finish",
+          "args": {},
+          "result": {
+            "status": "done"
+          }
+        }
+      ]
+    }
+  ],
+  "model": "gemini-3.1-flash-lite"
+}

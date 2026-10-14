@@ -1,0 +1,265 @@
+{
+  "contract": "contract_16",
+  "fields": {
+    "payer_name": {
+      "value": "Harborview Health Plan",
+      "quote": "Harborview Health Plan (the Plan)",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "provider_name": {
+      "value": "Marlow Children's Hospital",
+      "quote": "Marlow Children's Hospital (the Provider)",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "effective_date": {
+      "value": "2022-12-04",
+      "quote": "Date: 4th day of December, 2022",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "expiry_date": {
+      "value": "2027-12-03",
+      "quote": "ends on the 3rd day of December, 2027",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "auto_renewal": {
+      "value": true,
+      "quote": "At the end of that period it will roll over from year to year unless one side gives notice of non-renewal 30 days ahead.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "termination_notice_days": {
+      "value": 60,
+      "quote": "Either side may end it early, without cause, by giving sixty (60) days written notice.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "inpatient_per_diem_usd": {
+      "value": 3300,
+      "quote": "the Plan will pay a flat per diem of $3,300 for each day of acute medical/surgical inpatient care",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "outpatient_pct_of_medicare": {
+      "value": 110,
+      "quote": "one hundred ten (110) percent of the Medicare fee schedule for general outpatient services.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "clean_claim_payment_days": {
+      "value": 20,
+      "quote": "The Plan will pay each clean claim within twenty (20) days after it receives the claim.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "timely_filing_days": {
+      "value": 365,
+      "quote": "The Provider must send claims no later than three hundred sixty-five (365) days after the date of service.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "credentialing_sla_days": {
+      "value": 60,
+      "quote": "The Plan will finish credentialing the Provider's clinicians within sixty (60) days of getting a complete application.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "governing_law": {
+      "value": "Illinois",
+      "quote": "This letter agreement is governed by the laws of the State of Illinois.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    }
+  },
+  "stop_reason": "finished",
+  "steps": 3,
+  "validation_issues_caught": 0,
+  "auto_fields": 12,
+  "review_fields": 0,
+  "tokens": {
+    "prompt": 7089,
+    "output": 649
+  },
+  "trace": [
+    {
+      "step": 1,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 0
+          },
+          "result": {
+            "chunk_id": 0,
+            "text": "Synthetic sample contract for demonstration only - all parties are fictional.\nPage 1"
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 1
+          },
+          "result": {
+            "chunk_id": 1,
+            "text": "LETTER AGREEMENT - HOSPITAL SERVICES RATES AND\nTERMS\nDate: 4th day of December, 2022\nThis letter agreement sets out how Harborview Health Plan (the Plan) will reimburse Marlow Children's\nHospital (the Provider) for covered services given to the Plan's members. It replaces the parties' earlier\narrangement dated December 4, 2019, under which clean claims were paid within 35 days and acute\ninpatient care was paid at $3,150 per day. Those earlier terms no longer apply.\nRates. Starting on 4th day of December, 2022, the Plan will pay a flat per diem of $3,300 for each day of\nacute medical/surgical inpatient care, and one hundred ten (110) percent of the Medicare fee schedule for\ngeneral outpatient services. Behavioral health inpatient stays are paid at $3,700 per day, and emergency\ndepartment visits at 120 percent of Medicare."
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 2
+          },
+          "result": {
+            "chunk_id": 2,
+            "text": "Payment and filing. The Plan will pay each clean claim within twenty (20) days after it receives the claim.\nThe Provider must send claims no later than three hundred sixty-five (365) days after the date of service. A\ndenied claim may be appealed within 60 days.\nCredentialing. The Plan will finish credentialing the Provider's clinicians within sixty (60) days of getting a\ncomplete application.\nDuration. This letter agreement begins on the 4th day of December, 2022, runs for five years, and ends on\nthe 3rd day of December, 2027. At the end of that period it will roll over from year to year unless one side\ngives notice of non-renewal 30 days ahead. Either side may end it early, without cause, by giving sixty (60)\ndays written notice."
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 3
+          },
+          "result": {
+            "chunk_id": 3,
+            "text": "Law. This letter agreement is governed by the laws of the State of Illinois.\nInsurance and records. The Provider will carry professional liability cover of $2,000,000 per occurrence and\nkeep records for 10 years.\nPlease countersign below to confirm that this reflects our agreement."
+          }
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "submit_fields",
+          "args": {
+            "fields": [
+              {
+                "field": "payer_name",
+                "value": "Harborview Health Plan",
+                "confidence": 1,
+                "quote": "Harborview Health Plan (the Plan)"
+              },
+              {
+                "quote": "Marlow Children's Hospital (the Provider)",
+                "value": "Marlow Children's Hospital",
+                "field": "provider_name",
+                "confidence": 1
+              },
+              {
+                "quote": "Date: 4th day of December, 2022",
+                "confidence": 1,
+                "value": "2022-12-04",
+                "field": "effective_date"
+              },
+              {
+                "quote": "ends on the 3rd day of December, 2027",
+                "confidence": 1,
+                "field": "expiry_date",
+                "value": "2027-12-03"
+              },
+              {
+                "quote": "At the end of that period it will roll over from year to year unless one side gives notice of non-renewal 30 days ahead.",
+                "value": "true",
+                "field": "auto_renewal",
+                "confidence": 1
+              },
+              {
+                "field": "termination_notice_days",
+                "value": "60",
+                "confidence": 1,
+                "quote": "Either side may end it early, without cause, by giving sixty (60) days written notice."
+              },
+              {
+                "quote": "the Plan will pay a flat per diem of $3,300 for each day of acute medical/surgical inpatient care",
+                "confidence": 1,
+                "value": "3300",
+                "field": "inpatient_per_diem_usd"
+              },
+              {
+                "field": "outpatient_pct_of_medicare",
+                "value": "110",
+                "confidence": 1,
+                "quote": "one hundred ten (110) percent of the Medicare fee schedule for general outpatient services."
+              },
+              {
+                "quote": "The Plan will pay each clean claim within twenty (20) days after it receives the claim.",
+                "confidence": 1,
+                "field": "clean_claim_payment_days",
+                "value": "20"
+              },
+              {
+                "field": "timely_filing_days",
+                "value": "365",
+                "confidence": 1,
+                "quote": "The Provider must send claims no later than three hundred sixty-five (365) days after the date of service."
+              },
+              {
+                "quote": "The Plan will finish credentialing the Provider's clinicians within sixty (60) days of getting a complete application.",
+                "confidence": 1,
+                "value": "60",
+                "field": "credentialing_sla_days"
+              },
+              {
+                "field": "governing_law",
+                "value": "Illinois",
+                "confidence": 1,
+                "quote": "This letter agreement is governed by the laws of the State of Illinois."
+              }
+            ]
+          },
+          "result": {
+            "verified": [
+              "payer_name",
+              "provider_name",
+              "effective_date",
+              "expiry_date",
+              "auto_renewal",
+              "termination_notice_days",
+              "inpatient_per_diem_usd",
+              "outpatient_pct_of_medicare",
+              "clean_claim_payment_days",
+              "timely_filing_days",
+              "credentialing_sla_days",
+              "governing_law"
+            ],
+            "issues": [],
+            "missing": [],
+            "flagged": [],
+            "next": "all fields verified - call finish"
+          }
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "finish",
+          "args": {},
+          "result": {
+            "status": "done"
+          }
+        }
+      ]
+    }
+  ],
+  "model": "gemini-3.1-flash-lite"
+}

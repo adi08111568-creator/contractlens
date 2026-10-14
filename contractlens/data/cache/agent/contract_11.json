@@ -1,0 +1,235 @@
+{
+  "contract": "contract_11",
+  "fields": {
+    "payer_name": {
+      "value": "Meridian Health Plan",
+      "quote": "Plan (payer)\nMeridian Health Plan",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "provider_name": {
+      "value": "St. Aldric Regional Medical Center",
+      "quote": "Provider\nSt. Aldric Regional Medical Center",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "effective_date": {
+      "value": "2025-08-17",
+      "quote": "Eff. date\n17 Aug 2025",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "expiry_date": {
+      "value": "2028-08-16",
+      "quote": "Exp. date\n16 Aug 2028",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "auto_renewal": {
+      "value": false,
+      "quote": "Auto-renew\nN",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "termination_notice_days": {
+      "value": 60,
+      "quote": "Term. w/o cause\n60d written notice",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "inpatient_per_diem_usd": {
+      "value": 3425,
+      "quote": "IP acute per diem\n$3,425",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "outpatient_pct_of_medicare": {
+      "value": 100,
+      "quote": "OP general\n100% of MCR FS",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "clean_claim_payment_days": {
+      "value": 20,
+      "quote": "CCP\n20d from receipt",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "timely_filing_days": {
+      "value": 90,
+      "quote": "Timely filing\n90d from DOS",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "credentialing_sla_days": {
+      "value": 30,
+      "quote": "Cred. SLA\n30d from complete app",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "governing_law": {
+      "value": "Illinois",
+      "quote": "Gov. law\nState of Illinois",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    }
+  },
+  "stop_reason": "finished",
+  "steps": 3,
+  "validation_issues_caught": 0,
+  "auto_fields": 12,
+  "review_fields": 0,
+  "tokens": {
+    "prompt": 6185,
+    "output": 489
+  },
+  "trace": [
+    {
+      "step": 1,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 1
+          },
+          "result": {
+            "chunk_id": 1,
+            "text": "TERM SHEET - PARTICIPATION AGREEMENT\nItem\nTerm\nPlan (payer)\nMeridian Health Plan\nProvider\nSt. Aldric Regional Medical Center\nEff. date\n17 Aug 2025\nTerm\n3 yrs\nExp. date\n16 Aug 2028\nAuto-renew\nN\nTerm. w/o cause\n60d written notice\nIP acute per diem\n$3,425\nOP general\n100% of MCR FS\nCCP\n20d from receipt\nTimely filing\n90d from DOS\nCred. SLA\n30d from complete app\nGov. law\nState of Illinois\nAbbreviations: MCR FS = Medicare fee schedule; CCP = clean claim payment; DOS = date of service; IP =\ninpatient; OP = outpatient.\nNot covered by the key terms above: behavioral health IP at $3,025 per diem; ED at 115% of MCR FS;\nappeals within 60d of denial.\nProf. liability cover $2,000,000 per occurrence; records retained 7 yrs."
+          }
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "submit_fields",
+          "args": {
+            "fields": [
+              {
+                "value": "Meridian Health Plan",
+                "quote": "Plan (payer)\nMeridian Health Plan",
+                "confidence": 1,
+                "field": "payer_name"
+              },
+              {
+                "field": "provider_name",
+                "confidence": 1,
+                "quote": "Provider\nSt. Aldric Regional Medical Center",
+                "value": "St. Aldric Regional Medical Center"
+              },
+              {
+                "field": "effective_date",
+                "confidence": 1,
+                "quote": "Eff. date\n17 Aug 2025",
+                "value": "2025-08-17"
+              },
+              {
+                "quote": "Exp. date\n16 Aug 2028",
+                "confidence": 1,
+                "value": "2028-08-16",
+                "field": "expiry_date"
+              },
+              {
+                "quote": "Auto-renew\nN",
+                "value": "false",
+                "field": "auto_renewal",
+                "confidence": 1
+              },
+              {
+                "confidence": 1,
+                "field": "termination_notice_days",
+                "quote": "Term. w/o cause\n60d written notice",
+                "value": "60"
+              },
+              {
+                "confidence": 1,
+                "field": "inpatient_per_diem_usd",
+                "value": "3425",
+                "quote": "IP acute per diem\n$3,425"
+              },
+              {
+                "value": "100",
+                "quote": "OP general\n100% of MCR FS",
+                "confidence": 1,
+                "field": "outpatient_pct_of_medicare"
+              },
+              {
+                "field": "clean_claim_payment_days",
+                "confidence": 1,
+                "value": "20",
+                "quote": "CCP\n20d from receipt"
+              },
+              {
+                "field": "timely_filing_days",
+                "quote": "Timely filing\n90d from DOS",
+                "confidence": 1,
+                "value": "90"
+              },
+              {
+                "value": "30",
+                "quote": "Cred. SLA\n30d from complete app",
+                "field": "credentialing_sla_days",
+                "confidence": 1
+              },
+              {
+                "quote": "Gov. law\nState of Illinois",
+                "value": "Illinois",
+                "confidence": 1,
+                "field": "governing_law"
+              }
+            ]
+          },
+          "result": {
+            "verified": [
+              "payer_name",
+              "provider_name",
+              "effective_date",
+              "expiry_date",
+              "auto_renewal",
+              "termination_notice_days",
+              "inpatient_per_diem_usd",
+              "outpatient_pct_of_medicare",
+              "clean_claim_payment_days",
+              "timely_filing_days",
+              "credentialing_sla_days",
+              "governing_law"
+            ],
+            "issues": [],
+            "missing": [],
+            "flagged": [],
+            "next": "all fields verified - call finish"
+          }
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "finish",
+          "args": {},
+          "result": {
+            "status": "done"
+          }
+        }
+      ]
+    }
+  ],
+  "model": "gemini-3.1-flash-lite"
+}

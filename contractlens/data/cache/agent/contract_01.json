@@ -1,0 +1,235 @@
+{
+  "contract": "contract_01",
+  "fields": {
+    "payer_name": {
+      "value": "Redwood Community Health Plan",
+      "quote": "Plan (payer)\nRedwood Community Health Plan",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "provider_name": {
+      "value": "Marlow Children's Hospital",
+      "quote": "Provider\nMarlow Children's Hospital",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "effective_date": {
+      "value": "2021-03-23",
+      "quote": "Eff. date\n23 Mar 2021",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "expiry_date": {
+      "value": "2026-03-22",
+      "quote": "Exp. date\n22 Mar 2026",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "auto_renewal": {
+      "value": true,
+      "quote": "Auto-renew\nY - 1-yr periods",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "termination_notice_days": {
+      "value": 120,
+      "quote": "Term. w/o cause\n120d written notice",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "inpatient_per_diem_usd": {
+      "value": 2675,
+      "quote": "IP acute per diem\n$2,675",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "outpatient_pct_of_medicare": {
+      "value": 105,
+      "quote": "OP general\n105% of MCR FS",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "clean_claim_payment_days": {
+      "value": 20,
+      "quote": "CCP\n20d from receipt",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "timely_filing_days": {
+      "value": 180,
+      "quote": "Timely filing\n180d from DOS",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "credentialing_sla_days": {
+      "value": 30,
+      "quote": "Cred. SLA\n30d from complete app",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "governing_law": {
+      "value": "Ohio",
+      "quote": "Gov. law\nState of Ohio",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    }
+  },
+  "stop_reason": "finished",
+  "steps": 3,
+  "validation_issues_caught": 0,
+  "auto_fields": 12,
+  "review_fields": 0,
+  "tokens": {
+    "prompt": 6213,
+    "output": 499
+  },
+  "trace": [
+    {
+      "step": 1,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 1
+          },
+          "result": {
+            "chunk_id": 1,
+            "text": "TERM SHEET - PARTICIPATION AGREEMENT\nItem\nTerm\nPlan (payer)\nRedwood Community Health Plan\nProvider\nMarlow Children's Hospital\nEff. date\n23 Mar 2021\nTerm\n5 yrs\nExp. date\n22 Mar 2026\nAuto-renew\nY - 1-yr periods\nTerm. w/o cause\n120d written notice\nIP acute per diem\n$2,675\nOP general\n105% of MCR FS\nCCP\n20d from receipt\nTimely filing\n180d from DOS\nCred. SLA\n30d from complete app\nGov. law\nState of Ohio\nAbbreviations: MCR FS = Medicare fee schedule; CCP = clean claim payment; DOS = date of service; IP =\ninpatient; OP = outpatient.\nNot covered by the key terms above: behavioral health IP at $2,275 per diem; ED at 120% of MCR FS;\nappeals within 210d of denial.\nProf. liability cover $2,000,000 per occurrence; records retained 7 yrs."
+          }
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "submit_fields",
+          "args": {
+            "fields": [
+              {
+                "field": "payer_name",
+                "quote": "Plan (payer)\nRedwood Community Health Plan",
+                "value": "Redwood Community Health Plan",
+                "confidence": 1
+              },
+              {
+                "field": "provider_name",
+                "quote": "Provider\nMarlow Children's Hospital",
+                "value": "Marlow Children's Hospital",
+                "confidence": 1
+              },
+              {
+                "value": "2021-03-23",
+                "field": "effective_date",
+                "quote": "Eff. date\n23 Mar 2021",
+                "confidence": 1
+              },
+              {
+                "confidence": 1,
+                "field": "expiry_date",
+                "quote": "Exp. date\n22 Mar 2026",
+                "value": "2026-03-22"
+              },
+              {
+                "confidence": 1,
+                "value": "true",
+                "field": "auto_renewal",
+                "quote": "Auto-renew\nY - 1-yr periods"
+              },
+              {
+                "value": "120",
+                "field": "termination_notice_days",
+                "quote": "Term. w/o cause\n120d written notice",
+                "confidence": 1
+              },
+              {
+                "value": "2675",
+                "field": "inpatient_per_diem_usd",
+                "quote": "IP acute per diem\n$2,675",
+                "confidence": 1
+              },
+              {
+                "confidence": 1,
+                "field": "outpatient_pct_of_medicare",
+                "quote": "OP general\n105% of MCR FS",
+                "value": "105"
+              },
+              {
+                "value": "20",
+                "field": "clean_claim_payment_days",
+                "quote": "CCP\n20d from receipt",
+                "confidence": 1
+              },
+              {
+                "value": "180",
+                "field": "timely_filing_days",
+                "quote": "Timely filing\n180d from DOS",
+                "confidence": 1
+              },
+              {
+                "confidence": 1,
+                "field": "credentialing_sla_days",
+                "quote": "Cred. SLA\n30d from complete app",
+                "value": "30"
+              },
+              {
+                "confidence": 1,
+                "field": "governing_law",
+                "quote": "Gov. law\nState of Ohio",
+                "value": "Ohio"
+              }
+            ]
+          },
+          "result": {
+            "verified": [
+              "payer_name",
+              "provider_name",
+              "effective_date",
+              "expiry_date",
+              "auto_renewal",
+              "termination_notice_days",
+              "inpatient_per_diem_usd",
+              "outpatient_pct_of_medicare",
+              "clean_claim_payment_days",
+              "timely_filing_days",
+              "credentialing_sla_days",
+              "governing_law"
+            ],
+            "issues": [],
+            "missing": [],
+            "flagged": [],
+            "next": "all fields verified - call finish"
+          }
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "finish",
+          "args": {},
+          "result": {
+            "status": "done"
+          }
+        }
+      ]
+    }
+  ],
+  "model": "gemini-3.1-flash-lite"
+}

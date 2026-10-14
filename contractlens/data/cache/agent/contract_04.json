@@ -1,0 +1,255 @@
+{
+  "contract": "contract_04",
+  "fields": {
+    "payer_name": {
+      "value": "Pinecrest Medical Plan",
+      "quote": "Payer\nPinecrest Medical Plan",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "provider_name": {
+      "value": "Larkspur Women's Health Center",
+      "quote": "Provider\nLarkspur Women's Health Center",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "effective_date": {
+      "value": "2024-03-09",
+      "quote": "Effective Date\n09 Mar 2024",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "expiry_date": {
+      "value": "2027-03-08",
+      "quote": "Expiration Date\n08 Mar 2027",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "auto_renewal": {
+      "value": true,
+      "quote": "Renewal\nEvergreen - renews automatically for successive 12-month periods",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "termination_notice_days": {
+      "value": 90,
+      "quote": "Termination Without Cause\n90 days written notice",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "inpatient_per_diem_usd": {
+      "value": 4175,
+      "quote": "Inpatient - Acute (Med/Surg)\nPer diem\n$4,175 / day",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "outpatient_pct_of_medicare": {
+      "value": 135,
+      "quote": "Outpatient - General\n% of Medicare fee schedule\n135%",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "clean_claim_payment_days": {
+      "value": 30,
+      "quote": "Clean claim payment\nWithin 30 calendar days of receipt",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "timely_filing_days": {
+      "value": 365,
+      "quote": "Timely filing\n365 days from date of service",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "credentialing_sla_days": {
+      "value": 90,
+      "quote": "Credentialing turnaround\n90 days from complete application",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "governing_law": {
+      "value": "Georgia",
+      "quote": "Governing law\nState of Georgia",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    }
+  },
+  "stop_reason": "finished",
+  "steps": 3,
+  "validation_issues_caught": 0,
+  "auto_fields": 12,
+  "review_fields": 0,
+  "tokens": {
+    "prompt": 6691,
+    "output": 551
+  },
+  "trace": [
+    {
+      "step": 1,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 3
+          },
+          "result": {
+            "chunk_id": 3,
+            "text": "SECTION 1 - AGREEMENT PARTICULARS\nItem\nDetail\nPayer\nPinecrest Medical Plan\nProvider\nLarkspur Women's Health Center\nEffective Date\n09 Mar 2024\nTerm\n3 years\nExpiration Date\n08 Mar 2027\nRenewal\nEvergreen - renews automatically for successive 12-month periods\nTermination Without Cause\n90 days written notice"
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 4
+          },
+          "result": {
+            "chunk_id": 4,
+            "text": "EXHIBIT A - RATE SCHEDULE\nService Category\nMethodology\nRate\nInpatient - Acute (Med/Surg)\nPer diem\n$4,175 / day\nInpatient - Behavioral Health\nPer diem\n$3,775 / day\nOutpatient - General\n% of Medicare fee schedule\n135%\nEmergency Department\n% of Medicare fee schedule\n125%"
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 5
+          },
+          "result": {
+            "chunk_id": 5,
+            "text": "EXHIBIT B - ADMINISTRATIVE TERMS\nItem\nTerm\nClean claim payment\nWithin 30 calendar days of receipt\nTimely filing\n365 days from date of service\nAppeals window\n270 days from denial notice\nCredentialing turnaround\n90 days from complete application\nGoverning law\nState of Georgia\nConfidentiality. Each party shall keep the financial terms of this Agreement confidential and shall disclose\nthem only as required by law.\nInsurance. Provider shall maintain professional liability insurance of not less than $2,000,000 per\noccurrence."
+          }
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "submit_fields",
+          "args": {
+            "fields": [
+              {
+                "confidence": 1,
+                "quote": "Payer\nPinecrest Medical Plan",
+                "value": "Pinecrest Medical Plan",
+                "field": "payer_name"
+              },
+              {
+                "quote": "Provider\nLarkspur Women's Health Center",
+                "value": "Larkspur Women's Health Center",
+                "field": "provider_name",
+                "confidence": 1
+              },
+              {
+                "quote": "Effective Date\n09 Mar 2024",
+                "value": "2024-03-09",
+                "confidence": 1,
+                "field": "effective_date"
+              },
+              {
+                "field": "expiry_date",
+                "confidence": 1,
+                "value": "2027-03-08",
+                "quote": "Expiration Date\n08 Mar 2027"
+              },
+              {
+                "quote": "Renewal\nEvergreen - renews automatically for successive 12-month periods",
+                "value": "true",
+                "field": "auto_renewal",
+                "confidence": 1
+              },
+              {
+                "field": "termination_notice_days",
+                "confidence": 1,
+                "quote": "Termination Without Cause\n90 days written notice",
+                "value": "90"
+              },
+              {
+                "confidence": 1,
+                "field": "inpatient_per_diem_usd",
+                "value": "4175",
+                "quote": "Inpatient - Acute (Med/Surg)\nPer diem\n$4,175 / day"
+              },
+              {
+                "confidence": 1,
+                "value": "135",
+                "quote": "Outpatient - General\n% of Medicare fee schedule\n135%",
+                "field": "outpatient_pct_of_medicare"
+              },
+              {
+                "field": "clean_claim_payment_days",
+                "quote": "Clean claim payment\nWithin 30 calendar days of receipt",
+                "value": "30",
+                "confidence": 1
+              },
+              {
+                "quote": "Timely filing\n365 days from date of service",
+                "value": "365",
+                "confidence": 1,
+                "field": "timely_filing_days"
+              },
+              {
+                "field": "credentialing_sla_days",
+                "confidence": 1,
+                "value": "90",
+                "quote": "Credentialing turnaround\n90 days from complete application"
+              },
+              {
+                "field": "governing_law",
+                "confidence": 1,
+                "value": "Georgia",
+                "quote": "Governing law\nState of Georgia"
+              }
+            ]
+          },
+          "result": {
+            "verified": [
+              "payer_name",
+              "provider_name",
+              "effective_date",
+              "expiry_date",
+              "auto_renewal",
+              "termination_notice_days",
+              "inpatient_per_diem_usd",
+              "outpatient_pct_of_medicare",
+              "clean_claim_payment_days",
+              "timely_filing_days",
+              "credentialing_sla_days",
+              "governing_law"
+            ],
+            "issues": [],
+            "missing": [],
+            "flagged": [],
+            "next": "all fields verified - call finish"
+          }
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "finish",
+          "args": {},
+          "result": {
+            "status": "done"
+          }
+        }
+      ]
+    }
+  ],
+  "model": "gemini-3.1-flash-lite"
+}

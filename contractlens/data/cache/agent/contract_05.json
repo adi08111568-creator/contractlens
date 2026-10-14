@@ -1,0 +1,265 @@
+{
+  "contract": "contract_05",
+  "fields": {
+    "payer_name": {
+      "value": "Pinecrest Medical Plan",
+      "quote": "Pinecrest Medical Plan (the Plan)",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "provider_name": {
+      "value": "Northgate Family Physicians",
+      "quote": "Northgate Family Physicians (the Provider)",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "effective_date": {
+      "value": "2025-08-17",
+      "quote": "Date: 17th day of August, 2025",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "expiry_date": {
+      "value": "2029-08-16",
+      "quote": "ends on the 16th day of August, 2029",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "auto_renewal": {
+      "value": true,
+      "quote": "At the end of that period it will roll over from year to year unless one side gives notice of non-renewal 30 days ahead.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "termination_notice_days": {
+      "value": 60,
+      "quote": "Either side may end it early, without cause, by giving sixty (60) days written notice.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "inpatient_per_diem_usd": {
+      "value": 3975,
+      "quote": "Starting on 17th day of August, 2025, the Plan will pay a flat per diem of $3,975 for each day of acute medical/surgical inpatient care",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "outpatient_pct_of_medicare": {
+      "value": 150,
+      "quote": "one hundred fifty (150) percent of the Medicare fee schedule for general outpatient services.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "clean_claim_payment_days": {
+      "value": 15,
+      "quote": "The Plan will pay each clean claim within fifteen (15) days after it receives the claim.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "timely_filing_days": {
+      "value": 180,
+      "quote": "The Provider must send claims no later than one hundred eighty (180) days after the date of service.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "credentialing_sla_days": {
+      "value": 60,
+      "quote": "The Plan will finish credentialing the Provider's clinicians within sixty (60) days of getting a complete application.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "governing_law": {
+      "value": "Colorado",
+      "quote": "This letter agreement is governed by the laws of the State of Colorado.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    }
+  },
+  "stop_reason": "finished",
+  "steps": 3,
+  "validation_issues_caught": 0,
+  "auto_fields": 12,
+  "review_fields": 0,
+  "tokens": {
+    "prompt": 7103,
+    "output": 659
+  },
+  "trace": [
+    {
+      "step": 1,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 0
+          },
+          "result": {
+            "chunk_id": 0,
+            "text": "Synthetic sample contract for demonstration only - all parties are fictional.\nPage 1"
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 1
+          },
+          "result": {
+            "chunk_id": 1,
+            "text": "LETTER AGREEMENT - HOSPITAL SERVICES RATES AND\nTERMS\nDate: 17th day of August, 2025\nThis letter agreement sets out how Pinecrest Medical Plan (the Plan) will reimburse Northgate Family\nPhysicians (the Provider) for covered services given to the Plan's members. It replaces the parties' earlier\narrangement dated August 17, 2022, under which clean claims were paid within 30 days and acute inpatient\ncare was paid at $3,875 per day. Those earlier terms no longer apply.\nRates. Starting on 17th day of August, 2025, the Plan will pay a flat per diem of $3,975 for each day of acute\nmedical/surgical inpatient care, and one hundred fifty (150) percent of the Medicare fee schedule for general\noutpatient services. Behavioral health inpatient stays are paid at $4,275 per day, and emergency department\nvisits at 165 percent of Medicare."
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 2
+          },
+          "result": {
+            "chunk_id": 2,
+            "text": "Payment and filing. The Plan will pay each clean claim within fifteen (15) days after it receives the claim.\nThe Provider must send claims no later than one hundred eighty (180) days after the date of service. A\ndenied claim may be appealed within 270 days.\nCredentialing. The Plan will finish credentialing the Provider's clinicians within sixty (60) days of getting a\ncomplete application.\nDuration. This letter agreement begins on the 17th day of August, 2025, runs for four years, and ends on the\n16th day of August, 2029. At the end of that period it will roll over from year to year unless one side gives\nnotice of non-renewal 30 days ahead. Either side may end it early, without cause, by giving sixty (60) days\nwritten notice."
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 3
+          },
+          "result": {
+            "chunk_id": 3,
+            "text": "Law. This letter agreement is governed by the laws of the State of Colorado.\nInsurance and records. The Provider will carry professional liability cover of $2,000,000 per occurrence and\nkeep records for 7 years.\nPlease countersign below to confirm that this reflects our agreement."
+          }
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "submit_fields",
+          "args": {
+            "fields": [
+              {
+                "confidence": 1,
+                "field": "payer_name",
+                "quote": "Pinecrest Medical Plan (the Plan)",
+                "value": "Pinecrest Medical Plan"
+              },
+              {
+                "confidence": 1,
+                "value": "Northgate Family Physicians",
+                "quote": "Northgate Family Physicians (the Provider)",
+                "field": "provider_name"
+              },
+              {
+                "confidence": 1,
+                "field": "effective_date",
+                "quote": "Date: 17th day of August, 2025",
+                "value": "2025-08-17"
+              },
+              {
+                "confidence": 1,
+                "value": "2029-08-16",
+                "quote": "ends on the 16th day of August, 2029",
+                "field": "expiry_date"
+              },
+              {
+                "field": "auto_renewal",
+                "value": "true",
+                "quote": "At the end of that period it will roll over from year to year unless one side gives notice of non-renewal 30 days ahead.",
+                "confidence": 1
+              },
+              {
+                "quote": "Either side may end it early, without cause, by giving sixty (60) days written notice.",
+                "value": "60",
+                "confidence": 1,
+                "field": "termination_notice_days"
+              },
+              {
+                "field": "inpatient_per_diem_usd",
+                "confidence": 1,
+                "value": "3975",
+                "quote": "Starting on 17th day of August, 2025, the Plan will pay a flat per diem of $3,975 for each day of acute medical/surgical inpatient care"
+              },
+              {
+                "confidence": 1,
+                "field": "outpatient_pct_of_medicare",
+                "quote": "one hundred fifty (150) percent of the Medicare fee schedule for general outpatient services.",
+                "value": "150"
+              },
+              {
+                "confidence": 1,
+                "field": "clean_claim_payment_days",
+                "value": "15",
+                "quote": "The Plan will pay each clean claim within fifteen (15) days after it receives the claim."
+              },
+              {
+                "field": "timely_filing_days",
+                "confidence": 1,
+                "value": "180",
+                "quote": "The Provider must send claims no later than one hundred eighty (180) days after the date of service."
+              },
+              {
+                "confidence": 1,
+                "quote": "The Plan will finish credentialing the Provider's clinicians within sixty (60) days of getting a complete application.",
+                "value": "60",
+                "field": "credentialing_sla_days"
+              },
+              {
+                "field": "governing_law",
+                "value": "Colorado",
+                "quote": "This letter agreement is governed by the laws of the State of Colorado.",
+                "confidence": 1
+              }
+            ]
+          },
+          "result": {
+            "verified": [
+              "payer_name",
+              "provider_name",
+              "effective_date",
+              "expiry_date",
+              "auto_renewal",
+              "termination_notice_days",
+              "inpatient_per_diem_usd",
+              "outpatient_pct_of_medicare",
+              "clean_claim_payment_days",
+              "timely_filing_days",
+              "credentialing_sla_days",
+              "governing_law"
+            ],
+            "issues": [],
+            "missing": [],
+            "flagged": [],
+            "next": "all fields verified - call finish"
+          }
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "finish",
+          "args": {},
+          "result": {
+            "status": "done"
+          }
+        }
+      ]
+    }
+  ],
+  "model": "gemini-3.1-flash-lite"
+}

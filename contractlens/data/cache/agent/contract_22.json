@@ -1,0 +1,377 @@
+{
+  "contract": "contract_22",
+  "fields": {
+    "payer_name": {
+      "value": "Crestline Health Partners",
+      "quote": "\"Plan\" means Crestline Health Partners.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "provider_name": {
+      "value": "Tamarack Oncology Partners",
+      "quote": "\"Facility\" means Tamarack Oncology Partners.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "effective_date": {
+      "value": "2023-04-09",
+      "quote": "\"Effective Date\" means April 9, 2023.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "expiry_date": {
+      "value": "2027-04-08",
+      "quote": "2.1 The term of this Agreement begins on the Effective Date and ends on 08 Apr 2027, unless sooner\nterminated.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "auto_renewal": {
+      "value": true,
+      "quote": "2.2 Upon expiration of the term, this Agreement shall renew automatically for successive twelve (12) month\nterms unless terminated in accordance with Section 2.3.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "termination_notice_days": {
+      "value": 120,
+      "quote": "2.3 Either party may terminate this Agreement without cause by giving 120 days written notice.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "inpatient_per_diem_usd": {
+      "value": 3525,
+      "quote": "Section 3.1 is deleted and replaced with: \"Acute inpatient services shall be reimbursed at a per diem of\n$3,525.\"",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "outpatient_pct_of_medicare": {
+      "value": 100,
+      "quote": "Section 3.2 is deleted and replaced with: \"General outpatient services shall be reimbursed at 100% of the\nMedicare Fee Schedule.\"",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "clean_claim_payment_days": {
+      "value": 20,
+      "quote": "4.1 The Plan shall pay each Clean Claim within 20 days of receipt.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "timely_filing_days": {
+      "value": 120,
+      "quote": "4.2 The Facility shall submit claims\nwithin 120 days of the date of service.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "credentialing_sla_days": {
+      "value": 45,
+      "quote": "5.1 The Plan shall complete credentialing within 45 days of a complete application.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "governing_law": {
+      "value": "Georgia",
+      "quote": "6.1 This Agreement is governed by the laws of the State of Georgia.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    }
+  },
+  "stop_reason": "finished",
+  "steps": 4,
+  "validation_issues_caught": 5,
+  "auto_fields": 12,
+  "review_fields": 0,
+  "tokens": {
+    "prompt": 12091,
+    "output": 1058
+  },
+  "trace": [
+    {
+      "step": 1,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 1
+          },
+          "result": {
+            "chunk_id": 1,
+            "text": "MASTER PARTICIPATING FACILITY AGREEMENT\nThis Master Participating Facility Agreement is made on the 9th day of April, 2023 between Crestline\nHealth Partners and Tamarack Oncology Partners."
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 2
+          },
+          "result": {
+            "chunk_id": 2,
+            "text": "1. DEFINITIONS\n\"Effective Date\" means April 9, 2023. \"Clean Claim\" means a claim that can be processed without obtaining\nadditional information from the Provider. \"Medicare Fee Schedule\" means the applicable CMS fee schedule\nin effect on the date of service. \"Plan\" means Crestline Health Partners. \"Facility\" means Tamarack\nOncology Partners."
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 3
+          },
+          "result": {
+            "chunk_id": 3,
+            "text": "2. TERM\n2.1 The term of this Agreement begins on the Effective Date and ends on 08 Apr 2027, unless sooner\nterminated.\n2.2 Upon expiration of the term, this Agreement shall renew automatically for successive twelve (12) month\nterms unless terminated in accordance with Section 2.3.\n2.3 Either party may terminate this Agreement without cause by giving 120 days written notice."
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 4
+          },
+          "result": {
+            "chunk_id": 4,
+            "text": "3. COMPENSATION\n3.1 Acute inpatient services shall be reimbursed at a per diem of $3,275.\n3.2 General outpatient services shall be reimbursed at 90% of the Medicare Fee Schedule."
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 5
+          },
+          "result": {
+            "chunk_id": 5,
+            "text": "4. CLAIMS\n4.1 The Plan shall pay each Clean Claim within 20 days of receipt. 4.2 The Facility shall submit claims\nwithin 120 days of the date of service."
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 6
+          },
+          "result": {
+            "chunk_id": 6,
+            "text": "5. CREDENTIALING\n5.1 The Plan shall complete credentialing within 45 days of a complete application."
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 7
+          },
+          "result": {
+            "chunk_id": 7,
+            "text": "6. GENERAL\n6.1 This Agreement is governed by the laws of the State of Georgia.\nConfidentiality. Each party shall keep the financial terms of this Agreement confidential and shall disclose\nthem only as required by law.\nInsurance. Provider shall maintain professional liability insurance of not less than $2,000,000 per\noccurrence.\nRecords. Each party shall retain records relating to services for 7 years following the date of service.\nDisputes. The parties shall attempt in good faith to resolve any dispute through informal negotiation for up\nto 30 days before pursuing other remedies."
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 9
+          },
+          "result": {
+            "chunk_id": 9,
+            "text": "AMENDMENT NO. 1\nEffective April 9, 2024, the parties amend Sections 3.1 and 3.2 of the Agreement as set out below. All other\nterms remain unchanged.\nSection 3.1 is deleted and replaced with: \"Acute inpatient services shall be reimbursed at a per diem of\n$3,525.\"\nSection 3.2 is deleted and replaced with: \"General outpatient services shall be reimbursed at 100% of the\nMedicare Fee Schedule.\""
+          }
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "submit_fields",
+          "args": {
+            "fields": [
+              {
+                "quote": "\"Plan\" means Crestline Health Partners.",
+                "field": "payer_name",
+                "confidence": 1,
+                "value": "Crestline Health Partners"
+              },
+              {
+                "confidence": 1,
+                "value": "Tamarack Oncology Partners",
+                "quote": "\"Facility\" means Tamarack Oncology Partners.",
+                "field": "provider_name"
+              },
+              {
+                "confidence": 1,
+                "value": "2023-04-09",
+                "field": "effective_date",
+                "quote": "\"Effective Date\" means April 9, 2023."
+              },
+              {
+                "field": "expiry_date",
+                "quote": "2.1 The term of this Agreement begins on the Effective Date and ends on 08 Apr 2027, unless sooner\\nterminated.",
+                "value": "2027-04-08",
+                "confidence": 1
+              },
+              {
+                "quote": "2.2 Upon expiration of the term, this Agreement shall renew automatically for successive twelve (12) month\\nterms unless terminated in accordance with Section 2.3.",
+                "field": "auto_renewal",
+                "confidence": 1,
+                "value": "true"
+              },
+              {
+                "value": "120",
+                "quote": "2.3 Either party may terminate this Agreement without cause by giving 120 days written notice.",
+                "confidence": 1,
+                "field": "termination_notice_days"
+              },
+              {
+                "field": "inpatient_per_diem_usd",
+                "confidence": 1,
+                "quote": "Section 3.1 is deleted and replaced with: \"Acute inpatient services shall be reimbursed at a per diem of\\n$3,525.\"",
+                "value": "3525"
+              },
+              {
+                "value": "100",
+                "quote": "Section 3.2 is deleted and replaced with: \"General outpatient services shall be reimbursed at 100% of the\\nMedicare Fee Schedule.\"",
+                "confidence": 1,
+                "field": "outpatient_pct_of_medicare"
+              },
+              {
+                "confidence": 1,
+                "value": "20",
+                "quote": "4.1 The Plan shall pay each Clean Claim within 20 days of receipt.",
+                "field": "clean_claim_payment_days"
+              },
+              {
+                "value": "120",
+                "field": "timely_filing_days",
+                "confidence": 1,
+                "quote": "4.2 The Facility shall submit claims\\nwithin 120 days of the date of service."
+              },
+              {
+                "confidence": 1,
+                "value": "45",
+                "field": "credentialing_sla_days",
+                "quote": "5.1 The Plan shall complete credentialing within 45 days of a complete application."
+              },
+              {
+                "quote": "6.1 This Agreement is governed by the laws of the State of Georgia.",
+                "field": "governing_law",
+                "confidence": 1,
+                "value": "Georgia"
+              }
+            ]
+          },
+          "result": {
+            "verified": [
+              "payer_name",
+              "provider_name",
+              "effective_date",
+              "termination_notice_days",
+              "clean_claim_payment_days",
+              "credentialing_sla_days",
+              "governing_law"
+            ],
+            "issues": [
+              {
+                "field": "expiry_date",
+                "problem": "quote was not found in the contract - copy the text exactly (no paraphrasing)"
+              },
+              {
+                "field": "auto_renewal",
+                "problem": "quote was not found in the contract - copy the text exactly (no paraphrasing)"
+              },
+              {
+                "field": "inpatient_per_diem_usd",
+                "problem": "quote was not found in the contract - copy the text exactly (no paraphrasing)"
+              },
+              {
+                "field": "outpatient_pct_of_medicare",
+                "problem": "quote was not found in the contract - copy the text exactly (no paraphrasing)"
+              },
+              {
+                "field": "timely_filing_days",
+                "problem": "quote was not found in the contract - copy the text exactly (no paraphrasing)"
+              }
+            ],
+            "missing": [],
+            "flagged": [],
+            "next": "fix every issue by re-reading the contract, then resubmit those fields"
+          }
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "submit_fields",
+          "args": {
+            "fields": [
+              {
+                "value": "2027-04-08",
+                "quote": "2.1 The term of this Agreement begins on the Effective Date and ends on 08 Apr 2027, unless sooner\nterminated.",
+                "confidence": 1,
+                "field": "expiry_date"
+              },
+              {
+                "value": "true",
+                "field": "auto_renewal",
+                "confidence": 1,
+                "quote": "2.2 Upon expiration of the term, this Agreement shall renew automatically for successive twelve (12) month\nterms unless terminated in accordance with Section 2.3."
+              },
+              {
+                "confidence": 1,
+                "field": "inpatient_per_diem_usd",
+                "quote": "Section 3.1 is deleted and replaced with: \"Acute inpatient services shall be reimbursed at a per diem of\n$3,525.\"",
+                "value": "3525"
+              },
+              {
+                "quote": "Section 3.2 is deleted and replaced with: \"General outpatient services shall be reimbursed at 100% of the\nMedicare Fee Schedule.\"",
+                "confidence": 1,
+                "field": "outpatient_pct_of_medicare",
+                "value": "100"
+              },
+              {
+                "field": "timely_filing_days",
+                "quote": "4.2 The Facility shall submit claims\nwithin 120 days of the date of service.",
+                "value": "120",
+                "confidence": 1
+              }
+            ]
+          },
+          "result": {
+            "verified": [
+              "expiry_date",
+              "auto_renewal",
+              "inpatient_per_diem_usd",
+              "outpatient_pct_of_medicare",
+              "timely_filing_days"
+            ],
+            "issues": [],
+            "missing": [],
+            "flagged": [],
+            "next": "all fields verified - call finish"
+          }
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "finish",
+          "args": {},
+          "result": {
+            "status": "done"
+          }
+        }
+      ]
+    }
+  ],
+  "model": "gemini-3.1-flash-lite"
+}

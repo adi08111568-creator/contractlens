@@ -1,0 +1,235 @@
+{
+  "contract": "contract_23",
+  "fields": {
+    "payer_name": {
+      "value": "Harborview Health Plan",
+      "quote": "Plan (payer)\nHarborview Health Plan",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "provider_name": {
+      "value": "Northgate Family Physicians",
+      "quote": "Provider\nNorthgate Family Physicians",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "effective_date": {
+      "value": "2024-10-23",
+      "quote": "Eff. date\n23 Oct 2024",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "expiry_date": {
+      "value": "2026-10-22",
+      "quote": "Exp. date\n22 Oct 2026",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "auto_renewal": {
+      "value": false,
+      "quote": "Auto-renew\nN",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "termination_notice_days": {
+      "value": 180,
+      "quote": "Term. w/o cause\n180d written notice",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "inpatient_per_diem_usd": {
+      "value": 3325,
+      "quote": "IP acute per diem\n$3,325",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "outpatient_pct_of_medicare": {
+      "value": 95,
+      "quote": "OP general\n95% of MCR FS",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "clean_claim_payment_days": {
+      "value": 30,
+      "quote": "CCP\n30d from receipt",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "timely_filing_days": {
+      "value": 180,
+      "quote": "Timely filing\n180d from DOS",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "credentialing_sla_days": {
+      "value": 90,
+      "quote": "Cred. SLA\n90d from complete app",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "governing_law": {
+      "value": "Colorado",
+      "quote": "Gov. law\nState of Colorado",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    }
+  },
+  "stop_reason": "finished",
+  "steps": 3,
+  "validation_issues_caught": 0,
+  "auto_fields": 12,
+  "review_fields": 0,
+  "tokens": {
+    "prompt": 6185,
+    "output": 487
+  },
+  "trace": [
+    {
+      "step": 1,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 1
+          },
+          "result": {
+            "chunk_id": 1,
+            "text": "TERM SHEET - PARTICIPATION AGREEMENT\nItem\nTerm\nPlan (payer)\nHarborview Health Plan\nProvider\nNorthgate Family Physicians\nEff. date\n23 Oct 2024\nTerm\n2 yrs\nExp. date\n22 Oct 2026\nAuto-renew\nN\nTerm. w/o cause\n180d written notice\nIP acute per diem\n$3,325\nOP general\n95% of MCR FS\nCCP\n30d from receipt\nTimely filing\n180d from DOS\nCred. SLA\n90d from complete app\nGov. law\nState of Colorado\nAbbreviations: MCR FS = Medicare fee schedule; CCP = clean claim payment; DOS = date of service; IP =\ninpatient; OP = outpatient.\nNot covered by the key terms above: behavioral health IP at $3,625 per diem; ED at 105% of MCR FS;\nappeals within 270d of denial.\nProf. liability cover $2,000,000 per occurrence; records retained 10 yrs."
+          }
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "submit_fields",
+          "args": {
+            "fields": [
+              {
+                "value": "Harborview Health Plan",
+                "quote": "Plan (payer)\nHarborview Health Plan",
+                "confidence": 1,
+                "field": "payer_name"
+              },
+              {
+                "field": "provider_name",
+                "confidence": 1,
+                "quote": "Provider\nNorthgate Family Physicians",
+                "value": "Northgate Family Physicians"
+              },
+              {
+                "field": "effective_date",
+                "confidence": 1,
+                "quote": "Eff. date\n23 Oct 2024",
+                "value": "2024-10-23"
+              },
+              {
+                "field": "expiry_date",
+                "confidence": 1,
+                "quote": "Exp. date\n22 Oct 2026",
+                "value": "2026-10-22"
+              },
+              {
+                "value": "false",
+                "quote": "Auto-renew\nN",
+                "confidence": 1,
+                "field": "auto_renewal"
+              },
+              {
+                "value": "180",
+                "quote": "Term. w/o cause\n180d written notice",
+                "confidence": 1,
+                "field": "termination_notice_days"
+              },
+              {
+                "field": "inpatient_per_diem_usd",
+                "confidence": 1,
+                "quote": "IP acute per diem\n$3,325",
+                "value": "3325"
+              },
+              {
+                "quote": "OP general\n95% of MCR FS",
+                "value": "95",
+                "confidence": 1,
+                "field": "outpatient_pct_of_medicare"
+              },
+              {
+                "confidence": 1,
+                "field": "clean_claim_payment_days",
+                "value": "30",
+                "quote": "CCP\n30d from receipt"
+              },
+              {
+                "quote": "Timely filing\n180d from DOS",
+                "value": "180",
+                "confidence": 1,
+                "field": "timely_filing_days"
+              },
+              {
+                "quote": "Cred. SLA\n90d from complete app",
+                "value": "90",
+                "confidence": 1,
+                "field": "credentialing_sla_days"
+              },
+              {
+                "confidence": 1,
+                "quote": "Gov. law\nState of Colorado",
+                "value": "Colorado",
+                "field": "governing_law"
+              }
+            ]
+          },
+          "result": {
+            "verified": [
+              "payer_name",
+              "provider_name",
+              "effective_date",
+              "expiry_date",
+              "auto_renewal",
+              "termination_notice_days",
+              "inpatient_per_diem_usd",
+              "outpatient_pct_of_medicare",
+              "clean_claim_payment_days",
+              "timely_filing_days",
+              "credentialing_sla_days",
+              "governing_law"
+            ],
+            "issues": [],
+            "missing": [],
+            "flagged": [],
+            "next": "all fields verified - call finish"
+          }
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "finish",
+          "args": {},
+          "result": {
+            "status": "done"
+          }
+        }
+      ]
+    }
+  ],
+  "model": "gemini-3.1-flash-lite"
+}

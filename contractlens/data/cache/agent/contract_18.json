@@ -1,0 +1,305 @@
+{
+  "contract": "contract_18",
+  "fields": {
+    "payer_name": {
+      "value": "Pinecrest Medical Plan",
+      "quote": "between Pinecrest Medical Plan and Riverbend Community Hospital.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "provider_name": {
+      "value": "Riverbend Community Hospital",
+      "quote": "between Pinecrest Medical Plan and Riverbend Community Hospital.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "effective_date": {
+      "value": "2023-10-11",
+      "quote": "\"Effective Date\" means October 11, 2023.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "expiry_date": {
+      "value": "2025-10-10",
+      "quote": "2.1 The term of this Agreement begins on the Effective Date and ends on 10 Oct 2025, unless sooner terminated.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "auto_renewal": {
+      "value": false,
+      "quote": "2.2 This Agreement does not renew automatically. Continuation after the expiration date requires a signed written amendment.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "termination_notice_days": {
+      "value": 120,
+      "quote": "2.3 Either party may terminate this Agreement without cause by giving 120 days written notice.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "inpatient_per_diem_usd": {
+      "value": 3400,
+      "quote": "Section 3.1 is deleted and replaced with: \"Acute inpatient services shall be reimbursed at a per diem of $3,400.\"",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "outpatient_pct_of_medicare": {
+      "value": 115,
+      "quote": "Section 3.2 is deleted and replaced with: \"General outpatient services shall be reimbursed at 115% of the Medicare Fee Schedule.\"",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "clean_claim_payment_days": {
+      "value": 45,
+      "quote": "4.1 The Plan shall pay each Clean Claim within 45 days of receipt.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "timely_filing_days": {
+      "value": 180,
+      "quote": "4.2 The Facility shall submit claims within 180 days of the date of service.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "credentialing_sla_days": {
+      "value": 90,
+      "quote": "5.1 The Plan shall complete credentialing within 90 days of a complete application.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "governing_law": {
+      "value": "North Carolina",
+      "quote": "6.1 This Agreement is governed by the laws of the State of North Carolina.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    }
+  },
+  "stop_reason": "finished",
+  "steps": 3,
+  "validation_issues_caught": 0,
+  "auto_fields": 12,
+  "review_fields": 0,
+  "tokens": {
+    "prompt": 7969,
+    "output": 731
+  },
+  "trace": [
+    {
+      "step": 1,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 1
+          },
+          "result": {
+            "chunk_id": 1,
+            "text": "MASTER PARTICIPATING FACILITY AGREEMENT\nThis Master Participating Facility Agreement is made on the 11th day of October, 2023 between Pinecrest\nMedical Plan and Riverbend Community Hospital."
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 2
+          },
+          "result": {
+            "chunk_id": 2,
+            "text": "1. DEFINITIONS\n\"Effective Date\" means October 11, 2023. \"Clean Claim\" means a claim that can be processed without\nobtaining additional information from the Provider. \"Medicare Fee Schedule\" means the applicable CMS fee\nschedule in effect on the date of service. \"Plan\" means Pinecrest Medical Plan. \"Facility\" means Riverbend\nCommunity Hospital."
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 3
+          },
+          "result": {
+            "chunk_id": 3,
+            "text": "2. TERM\n2.1 The term of this Agreement begins on the Effective Date and ends on 10 Oct 2025, unless sooner\nterminated.\n2.2 This Agreement does not renew automatically. Continuation after the expiration date requires a signed\nwritten amendment.\n2.3 Either party may terminate this Agreement without cause by giving 120 days written notice."
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 4
+          },
+          "result": {
+            "chunk_id": 4,
+            "text": "3. COMPENSATION\n3.1 Acute inpatient services shall be reimbursed at a per diem of $3,250.\n3.2 General outpatient services shall be reimbursed at 105% of the Medicare Fee Schedule."
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 5
+          },
+          "result": {
+            "chunk_id": 5,
+            "text": "4. CLAIMS\n4.1 The Plan shall pay each Clean Claim within 45 days of receipt. 4.2 The Facility shall submit claims\nwithin 180 days of the date of service."
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 6
+          },
+          "result": {
+            "chunk_id": 6,
+            "text": "5. CREDENTIALING\n5.1 The Plan shall complete credentialing within 90 days of a complete application."
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 7
+          },
+          "result": {
+            "chunk_id": 7,
+            "text": "6. GENERAL\n6.1 This Agreement is governed by the laws of the State of North Carolina.\nConfidentiality. Each party shall keep the financial terms of this Agreement confidential and shall disclose\nthem only as required by law.\nInsurance. Provider shall maintain professional liability insurance of not less than $2,000,000 per\noccurrence.\nRecords. Each party shall retain records relating to services for 7 years following the date of service.\nDisputes. The parties shall attempt in good faith to resolve any dispute through informal negotiation for up\nto 45 days before pursuing other remedies."
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 9
+          },
+          "result": {
+            "chunk_id": 9,
+            "text": "AMENDMENT NO. 1\nEffective October 11, 2024, the parties amend Sections 3.1 and 3.2 of the Agreement as set out below. All\nother terms remain unchanged.\nSection 3.1 is deleted and replaced with: \"Acute inpatient services shall be reimbursed at a per diem of\n$3,400.\"\nSection 3.2 is deleted and replaced with: \"General outpatient services shall be reimbursed at 115% of the\nMedicare Fee Schedule.\""
+          }
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "submit_fields",
+          "args": {
+            "fields": [
+              {
+                "value": "Pinecrest Medical Plan",
+                "confidence": 1,
+                "quote": "between Pinecrest Medical Plan and Riverbend Community Hospital.",
+                "field": "payer_name"
+              },
+              {
+                "quote": "between Pinecrest Medical Plan and Riverbend Community Hospital.",
+                "field": "provider_name",
+                "value": "Riverbend Community Hospital",
+                "confidence": 1
+              },
+              {
+                "value": "2023-10-11",
+                "quote": "\"Effective Date\" means October 11, 2023.",
+                "field": "effective_date",
+                "confidence": 1
+              },
+              {
+                "value": "2025-10-10",
+                "quote": "2.1 The term of this Agreement begins on the Effective Date and ends on 10 Oct 2025, unless sooner terminated.",
+                "field": "expiry_date",
+                "confidence": 1
+              },
+              {
+                "quote": "2.2 This Agreement does not renew automatically. Continuation after the expiration date requires a signed written amendment.",
+                "confidence": 1,
+                "field": "auto_renewal",
+                "value": "false"
+              },
+              {
+                "field": "termination_notice_days",
+                "quote": "2.3 Either party may terminate this Agreement without cause by giving 120 days written notice.",
+                "confidence": 1,
+                "value": "120"
+              },
+              {
+                "confidence": 1,
+                "value": "3400",
+                "quote": "Section 3.1 is deleted and replaced with: \"Acute inpatient services shall be reimbursed at a per diem of $3,400.\"",
+                "field": "inpatient_per_diem_usd"
+              },
+              {
+                "value": "115",
+                "confidence": 1,
+                "field": "outpatient_pct_of_medicare",
+                "quote": "Section 3.2 is deleted and replaced with: \"General outpatient services shall be reimbursed at 115% of the Medicare Fee Schedule.\""
+              },
+              {
+                "value": "45",
+                "confidence": 1,
+                "field": "clean_claim_payment_days",
+                "quote": "4.1 The Plan shall pay each Clean Claim within 45 days of receipt."
+              },
+              {
+                "value": "180",
+                "quote": "4.2 The Facility shall submit claims within 180 days of the date of service.",
+                "confidence": 1,
+                "field": "timely_filing_days"
+              },
+              {
+                "value": "90",
+                "confidence": 1,
+                "quote": "5.1 The Plan shall complete credentialing within 90 days of a complete application.",
+                "field": "credentialing_sla_days"
+              },
+              {
+                "quote": "6.1 This Agreement is governed by the laws of the State of North Carolina.",
+                "field": "governing_law",
+                "value": "North Carolina",
+                "confidence": 1
+              }
+            ]
+          },
+          "result": {
+            "verified": [
+              "payer_name",
+              "provider_name",
+              "effective_date",
+              "expiry_date",
+              "auto_renewal",
+              "termination_notice_days",
+              "inpatient_per_diem_usd",
+              "outpatient_pct_of_medicare",
+              "clean_claim_payment_days",
+              "timely_filing_days",
+              "credentialing_sla_days",
+              "governing_law"
+            ],
+            "issues": [],
+            "missing": [],
+            "flagged": [],
+            "next": "all fields verified - call finish"
+          }
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "finish",
+          "args": {},
+          "result": {
+            "status": "done"
+          }
+        }
+      ]
+    }
+  ],
+  "model": "gemini-3.1-flash-lite"
+}

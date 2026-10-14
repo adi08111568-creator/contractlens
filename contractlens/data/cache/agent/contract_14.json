@@ -1,0 +1,255 @@
+{
+  "contract": "contract_14",
+  "fields": {
+    "payer_name": {
+      "value": "Cobalt Mutual Health",
+      "quote": "Payer\nCobalt Mutual Health",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "provider_name": {
+      "value": "Kestrel Imaging and Diagnostics",
+      "quote": "Provider\nKestrel Imaging and Diagnostics",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "effective_date": {
+      "value": "2023-01-03",
+      "quote": "Effective Date\n03 Jan 2023",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "expiry_date": {
+      "value": "2028-01-02",
+      "quote": "Expiration Date\n02 Jan 2028",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "auto_renewal": {
+      "value": true,
+      "quote": "Renewal\nEvergreen - renews automatically for successive 12-month periods",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "termination_notice_days": {
+      "value": 120,
+      "quote": "Termination Without Cause\n120 days written notice",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "inpatient_per_diem_usd": {
+      "value": 1925,
+      "quote": "Inpatient - Acute (Med/Surg)\nPer diem\n$1,925 / day",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "outpatient_pct_of_medicare": {
+      "value": 95,
+      "quote": "Outpatient - General\n% of Medicare fee schedule\n95%",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "clean_claim_payment_days": {
+      "value": 30,
+      "quote": "Clean claim payment\nWithin 30 calendar days of receipt",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "timely_filing_days": {
+      "value": 120,
+      "quote": "Timely filing\n120 days from date of service",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "credentialing_sla_days": {
+      "value": 60,
+      "quote": "Credentialing turnaround\n60 days from complete application",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "governing_law": {
+      "value": "Florida",
+      "quote": "Governing law\nState of Florida",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    }
+  },
+  "stop_reason": "finished",
+  "steps": 3,
+  "validation_issues_caught": 0,
+  "auto_fields": 12,
+  "review_fields": 0,
+  "tokens": {
+    "prompt": 6674,
+    "output": 545
+  },
+  "trace": [
+    {
+      "step": 1,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 3
+          },
+          "result": {
+            "chunk_id": 3,
+            "text": "SECTION 1 - AGREEMENT PARTICULARS\nItem\nDetail\nPayer\nCobalt Mutual Health\nProvider\nKestrel Imaging and Diagnostics\nEffective Date\n03 Jan 2023\nTerm\n5 years\nExpiration Date\n02 Jan 2028\nRenewal\nEvergreen - renews automatically for successive 12-month periods\nTermination Without Cause\n120 days written notice"
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 4
+          },
+          "result": {
+            "chunk_id": 4,
+            "text": "EXHIBIT A - RATE SCHEDULE\nService Category\nMethodology\nRate\nInpatient - Acute (Med/Surg)\nPer diem\n$1,925 / day\nInpatient - Behavioral Health\nPer diem\n$1,525 / day\nOutpatient - General\n% of Medicare fee schedule\n95%\nEmergency Department\n% of Medicare fee schedule\n85%"
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 5
+          },
+          "result": {
+            "chunk_id": 5,
+            "text": "EXHIBIT B - ADMINISTRATIVE TERMS\nItem\nTerm\nClean claim payment\nWithin 30 calendar days of receipt\nTimely filing\n120 days from date of service\nAppeals window\n270 days from denial notice\nCredentialing turnaround\n60 days from complete application\nGoverning law\nState of Florida\nConfidentiality. Each party shall keep the financial terms of this Agreement confidential and shall disclose\nthem only as required by law.\nInsurance. Provider shall maintain professional liability insurance of not less than $2,000,000 per\noccurrence."
+          }
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "submit_fields",
+          "args": {
+            "fields": [
+              {
+                "quote": "Payer\nCobalt Mutual Health",
+                "confidence": 1,
+                "field": "payer_name",
+                "value": "Cobalt Mutual Health"
+              },
+              {
+                "quote": "Provider\nKestrel Imaging and Diagnostics",
+                "confidence": 1,
+                "field": "provider_name",
+                "value": "Kestrel Imaging and Diagnostics"
+              },
+              {
+                "field": "effective_date",
+                "confidence": 1,
+                "quote": "Effective Date\n03 Jan 2023",
+                "value": "2023-01-03"
+              },
+              {
+                "value": "2028-01-02",
+                "confidence": 1,
+                "quote": "Expiration Date\n02 Jan 2028",
+                "field": "expiry_date"
+              },
+              {
+                "confidence": 1,
+                "field": "auto_renewal",
+                "quote": "Renewal\nEvergreen - renews automatically for successive 12-month periods",
+                "value": "true"
+              },
+              {
+                "value": "120",
+                "confidence": 1,
+                "quote": "Termination Without Cause\n120 days written notice",
+                "field": "termination_notice_days"
+              },
+              {
+                "value": "1925",
+                "field": "inpatient_per_diem_usd",
+                "confidence": 1,
+                "quote": "Inpatient - Acute (Med/Surg)\nPer diem\n$1,925 / day"
+              },
+              {
+                "field": "outpatient_pct_of_medicare",
+                "quote": "Outpatient - General\n% of Medicare fee schedule\n95%",
+                "confidence": 1,
+                "value": "95"
+              },
+              {
+                "confidence": 1,
+                "value": "30",
+                "field": "clean_claim_payment_days",
+                "quote": "Clean claim payment\nWithin 30 calendar days of receipt"
+              },
+              {
+                "quote": "Timely filing\n120 days from date of service",
+                "field": "timely_filing_days",
+                "value": "120",
+                "confidence": 1
+              },
+              {
+                "value": "60",
+                "quote": "Credentialing turnaround\n60 days from complete application",
+                "confidence": 1,
+                "field": "credentialing_sla_days"
+              },
+              {
+                "value": "Florida",
+                "field": "governing_law",
+                "quote": "Governing law\nState of Florida",
+                "confidence": 1
+              }
+            ]
+          },
+          "result": {
+            "verified": [
+              "payer_name",
+              "provider_name",
+              "effective_date",
+              "expiry_date",
+              "auto_renewal",
+              "termination_notice_days",
+              "inpatient_per_diem_usd",
+              "outpatient_pct_of_medicare",
+              "clean_claim_payment_days",
+              "timely_filing_days",
+              "credentialing_sla_days",
+              "governing_law"
+            ],
+            "issues": [],
+            "missing": [],
+            "flagged": [],
+            "next": "all fields verified - call finish"
+          }
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "finish",
+          "args": {},
+          "result": {
+            "status": "done"
+          }
+        }
+      ]
+    }
+  ],
+  "model": "gemini-3.1-flash-lite"
+}

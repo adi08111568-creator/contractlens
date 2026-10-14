@@ -1,0 +1,367 @@
+{
+  "contract": "contract_07",
+  "fields": {
+    "payer_name": {
+      "value": "Summit Care Alliance",
+      "quote": "by and between Summit Care Alliance (\"Plan\")",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "provider_name": {
+      "value": "Hollis County General Hospital",
+      "quote": "and Hollis County General Hospital (\"Provider\").",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "effective_date": {
+      "value": "2025-07-07",
+      "quote": "entered into as of July 7, 2025 (the \"Effective Date\")",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "expiry_date": {
+      "value": "2028-07-06",
+      "quote": "1.1 Initial Term. This Agreement commences on the Effective Date and continues for an initial term of 3\nyears, expiring on July 6, 2028.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "auto_renewal": {
+      "value": true,
+      "quote": "1.2 Renewal. Upon expiration of the initial term, this Agreement shall automatically renew for successive\none-year terms unless either party gives written notice of non-renewal at least 30 days before the end of the\nthen-current term.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "termination_notice_days": {
+      "value": 120,
+      "quote": "1.3 Termination Without Cause. Either party may terminate this Agreement without cause upon 120 days\nprior written notice to the other party.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "inpatient_per_diem_usd": {
+      "value": 3075,
+      "quote": "2.1 Inpatient Services. Plan shall reimburse Provider for covered acute medical/surgical inpatient services at\na per diem rate of $3,075 per day.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "outpatient_pct_of_medicare": {
+      "value": 145,
+      "quote": "2.2 Outpatient Services. Plan shall reimburse Provider for covered general outpatient services at 145% of the\nthen-current Medicare fee schedule.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "clean_claim_payment_days": {
+      "value": 30,
+      "quote": "Plan shall pay each clean claim within 30 days after receipt.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "timely_filing_days": {
+      "value": 365,
+      "quote": "Provider shall submit claims within 365 days after the date of service.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "credentialing_sla_days": {
+      "value": 90,
+      "quote": "4.1 Plan shall complete credentialing of Provider's practitioners within 90 days after receipt of a complete\napplication.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    },
+    "governing_law": {
+      "value": "Illinois",
+      "quote": "This Agreement is governed by the laws of the State of Illinois.",
+      "confidence": 1.0,
+      "status": "auto",
+      "reason": "quote verified"
+    }
+  },
+  "stop_reason": "finished",
+  "steps": 4,
+  "validation_issues_caught": 6,
+  "auto_fields": 12,
+  "review_fields": 0,
+  "tokens": {
+    "prompt": 11509,
+    "output": 1064
+  },
+  "trace": [
+    {
+      "step": 1,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 1
+          },
+          "result": {
+            "chunk_id": 1,
+            "text": "PROVIDER PARTICIPATION AGREEMENT\nThis Provider Participation Agreement (the \"Agreement\") is entered into as of July 7, 2025 (the \"Effective\nDate\") by and between Summit Care Alliance (\"Plan\") and Hollis County General Hospital (\"Provider\")."
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 2
+          },
+          "result": {
+            "chunk_id": 2,
+            "text": "ARTICLE I - TERM AND TERMINATION\n1.1 Initial Term. This Agreement commences on the Effective Date and continues for an initial term of 3\nyears, expiring on July 6, 2028.\n1.2 Renewal. Upon expiration of the initial term, this Agreement shall automatically renew for successive\none-year terms unless either party gives written notice of non-renewal at least 30 days before the end of the\nthen-current term.\n1.3 Termination Without Cause. Either party may terminate this Agreement without cause upon 120 days\nprior written notice to the other party."
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 3
+          },
+          "result": {
+            "chunk_id": 3,
+            "text": "ARTICLE II - COMPENSATION\n2.1 Inpatient Services. Plan shall reimburse Provider for covered acute medical/surgical inpatient services at\na per diem rate of $3,075 per day. Behavioral health inpatient services are reimbursed at $2,775 per day.\n2.2 Outpatient Services. Plan shall reimburse Provider for covered general outpatient services at 145% of the\nthen-current Medicare fee schedule. Emergency department services are reimbursed at 160% of the\nMedicare fee schedule."
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 4
+          },
+          "result": {
+            "chunk_id": 4,
+            "text": "ARTICLE III - CLAIMS\n3.1 Payment of Clean Claims. Plan shall pay each clean claim within 30 days after receipt.\n3.2 Timely Filing. Provider shall submit claims within 365 days after the date of service. Claim denials may\nbe appealed within 210 days of the denial notice."
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 5
+          },
+          "result": {
+            "chunk_id": 5,
+            "text": "ARTICLE IV - CREDENTIALING\n4.1 Plan shall complete credentialing of Provider's practitioners within 90 days after receipt of a complete\napplication."
+          }
+        },
+        {
+          "tool": "read_chunk",
+          "args": {
+            "chunk_id": 6
+          },
+          "result": {
+            "chunk_id": 6,
+            "text": "ARTICLE V - GENERAL PROVISIONS\n5.1 Governing Law. This Agreement is governed by the laws of the State of Illinois.\nConfidentiality. Each party shall keep the financial terms of this Agreement confidential and shall disclose\nthem only as required by law.\nInsurance. Provider shall maintain professional liability insurance of not less than $1,000,000 per\noccurrence.\nRecords. Each party shall retain records relating to services for 7 years following the date of service.\nDisputes. The parties shall attempt in good faith to resolve any dispute through informal negotiation for up\nto 30 days before pursuing other remedies.\nIN WITNESS WHEREOF, the parties have executed this Agreement as of the Effective Date."
+          }
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "submit_fields",
+          "args": {
+            "fields": [
+              {
+                "confidence": 1,
+                "quote": "by and between Summit Care Alliance (\"Plan\")",
+                "field": "payer_name",
+                "value": "Summit Care Alliance"
+              },
+              {
+                "confidence": 1,
+                "value": "Hollis County General Hospital",
+                "field": "provider_name",
+                "quote": "and Hollis County General Hospital (\"Provider\")."
+              },
+              {
+                "value": "2025-07-07",
+                "confidence": 1,
+                "quote": "entered into as of July 7, 2025 (the \"Effective Date\")",
+                "field": "effective_date"
+              },
+              {
+                "quote": "initial term of 3\\nyears, expiring on July 6, 2028.",
+                "field": "expiry_date",
+                "value": "2028-07-06",
+                "confidence": 1
+              },
+              {
+                "confidence": 1,
+                "field": "auto_renewal",
+                "quote": "this Agreement shall automatically renew for successive\\none-year terms",
+                "value": "true"
+              },
+              {
+                "confidence": 1,
+                "value": "120",
+                "quote": "Either party may terminate this Agreement without cause upon 120 days\\nprior written notice to the other party.",
+                "field": "termination_notice_days"
+              },
+              {
+                "quote": "Plan shall reimburse Provider for covered acute medical/surgical inpatient services at\\na per diem rate of $3,075 per day.",
+                "field": "inpatient_per_diem_usd",
+                "confidence": 1,
+                "value": "3075"
+              },
+              {
+                "confidence": 1,
+                "value": "145",
+                "field": "outpatient_pct_of_medicare",
+                "quote": "Plan shall reimburse Provider for covered general outpatient services at 145% of the\\nthen-current Medicare fee schedule."
+              },
+              {
+                "confidence": 1,
+                "field": "clean_claim_payment_days",
+                "quote": "Plan shall pay each clean claim within 30 days after receipt.",
+                "value": "30"
+              },
+              {
+                "quote": "Provider shall submit claims within 365 days after the date of service.",
+                "field": "timely_filing_days",
+                "value": "365",
+                "confidence": 1
+              },
+              {
+                "confidence": 1,
+                "field": "credentialing_sla_days",
+                "quote": "Plan shall complete credentialing of Provider's practitioners within 90 days after receipt of a complete\\napplication.",
+                "value": "90"
+              },
+              {
+                "value": "Illinois",
+                "confidence": 1,
+                "quote": "This Agreement is governed by the laws of the State of Illinois.",
+                "field": "governing_law"
+              }
+            ]
+          },
+          "result": {
+            "verified": [
+              "payer_name",
+              "provider_name",
+              "effective_date",
+              "clean_claim_payment_days",
+              "timely_filing_days",
+              "governing_law"
+            ],
+            "issues": [
+              {
+                "field": "expiry_date",
+                "problem": "quote was not found in the contract - copy the text exactly (no paraphrasing)"
+              },
+              {
+                "field": "auto_renewal",
+                "problem": "quote was not found in the contract - copy the text exactly (no paraphrasing)"
+              },
+              {
+                "field": "termination_notice_days",
+                "problem": "quote was not found in the contract - copy the text exactly (no paraphrasing)"
+              },
+              {
+                "field": "inpatient_per_diem_usd",
+                "problem": "quote was not found in the contract - copy the text exactly (no paraphrasing)"
+              },
+              {
+                "field": "outpatient_pct_of_medicare",
+                "problem": "quote was not found in the contract - copy the text exactly (no paraphrasing)"
+              },
+              {
+                "field": "credentialing_sla_days",
+                "problem": "quote was not found in the contract - copy the text exactly (no paraphrasing)"
+              }
+            ],
+            "missing": [],
+            "flagged": [],
+            "next": "fix every issue by re-reading the contract, then resubmit those fields"
+          }
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "submit_fields",
+          "args": {
+            "fields": [
+              {
+                "confidence": 1,
+                "quote": "1.1 Initial Term. This Agreement commences on the Effective Date and continues for an initial term of 3\nyears, expiring on July 6, 2028.",
+                "field": "expiry_date",
+                "value": "2028-07-06"
+              },
+              {
+                "quote": "1.2 Renewal. Upon expiration of the initial term, this Agreement shall automatically renew for successive\none-year terms unless either party gives written notice of non-renewal at least 30 days before the end of the\nthen-current term.",
+                "value": "true",
+                "confidence": 1,
+                "field": "auto_renewal"
+              },
+              {
+                "field": "termination_notice_days",
+                "confidence": 1,
+                "value": "120",
+                "quote": "1.3 Termination Without Cause. Either party may terminate this Agreement without cause upon 120 days\nprior written notice to the other party."
+              },
+              {
+                "field": "inpatient_per_diem_usd",
+                "value": "3075",
+                "confidence": 1,
+                "quote": "2.1 Inpatient Services. Plan shall reimburse Provider for covered acute medical/surgical inpatient services at\na per diem rate of $3,075 per day."
+              },
+              {
+                "confidence": 1,
+                "quote": "2.2 Outpatient Services. Plan shall reimburse Provider for covered general outpatient services at 145% of the\nthen-current Medicare fee schedule.",
+                "value": "145",
+                "field": "outpatient_pct_of_medicare"
+              },
+              {
+                "field": "credentialing_sla_days",
+                "value": "90",
+                "confidence": 1,
+                "quote": "4.1 Plan shall complete credentialing of Provider's practitioners within 90 days after receipt of a complete\napplication."
+              }
+            ]
+          },
+          "result": {
+            "verified": [
+              "expiry_date",
+              "auto_renewal",
+              "termination_notice_days",
+              "inpatient_per_diem_usd",
+              "outpatient_pct_of_medicare",
+              "credentialing_sla_days"
+            ],
+            "issues": [],
+            "missing": [],
+            "flagged": [],
+            "next": "all fields verified - call finish"
+          }
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "thought": "",
+      "calls": [
+        {
+          "tool": "finish",
+          "args": {},
+          "result": {
+            "status": "done"
+          }
+        }
+      ]
+    }
+  ],
+  "model": "gemini-3.1-flash-lite"
+}
