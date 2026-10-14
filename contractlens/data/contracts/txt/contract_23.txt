@@ -1,0 +1,26 @@
+                          TERM SHEET - PARTICIPATION AGREEMENT
+========================================================================================
+
+Item              | Term
+------------------+----------------------------
+Plan (payer)      | Harborview Health Plan
+Provider          | Northgate Family Physicians
+Eff. date         | 23 Oct 2024
+Term              | 2 yrs
+Exp. date         | 22 Oct 2026
+Auto-renew        | N
+Term. w/o cause   | 180d written notice
+IP acute per diem | $3,325
+OP general        | 95% of MCR FS
+CCP               | 30d from receipt
+Timely filing     | 180d from DOS
+Cred. SLA         | 90d from complete app
+Gov. law          | State of Colorado
+
+Abbreviations: MCR FS = Medicare fee schedule; CCP = clean claim payment; DOS = date of
+service; IP = inpatient; OP = outpatient.
+
+Not covered by the key terms above: behavioral health IP at $3,625 per diem; ED at 105%
+of MCR FS; appeals within 270d of denial.
+
+Prof. liability cover $2,000,000 per occurrence; records retained 10 yrs.

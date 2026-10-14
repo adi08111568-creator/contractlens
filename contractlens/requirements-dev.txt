@@ -1,0 +1,3 @@
+-r requirements.txt
+reportlab>=4.0   # only to regenerate the synthetic contracts
+pytest>=8.0      # optional; tests also run as plain python files

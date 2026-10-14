@@ -1,0 +1,26 @@
+                          TERM SHEET - PARTICIPATION AGREEMENT
+========================================================================================
+
+Item              | Term
+------------------+-----------------------------------
+Plan (payer)      | Meridian Health Plan
+Provider          | St. Aldric Regional Medical Center
+Eff. date         | 17 Aug 2025
+Term              | 3 yrs
+Exp. date         | 16 Aug 2028
+Auto-renew        | N
+Term. w/o cause   | 60d written notice
+IP acute per diem | $3,425
+OP general        | 100% of MCR FS
+CCP               | 20d from receipt
+Timely filing     | 90d from DOS
+Cred. SLA         | 30d from complete app
+Gov. law          | State of Illinois
+
+Abbreviations: MCR FS = Medicare fee schedule; CCP = clean claim payment; DOS = date of
+service; IP = inpatient; OP = outpatient.
+
+Not covered by the key terms above: behavioral health IP at $3,025 per diem; ED at 115%
+of MCR FS; appeals within 60d of denial.
+
+Prof. liability cover $2,000,000 per occurrence; records retained 7 yrs.

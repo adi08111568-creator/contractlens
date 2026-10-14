@@ -1,0 +1,31 @@
+contract_id,layout,payer_name,provider_name,effective_date,expiry_date,auto_renewal,termination_notice_days,inpatient_per_diem_usd,outpatient_pct_of_medicare,clean_claim_payment_days,timely_filing_days,credentialing_sla_days,governing_law
+contract_01,E_term_sheet,Redwood Community Health Plan,Marlow Children's Hospital,2021-03-23,2026-03-22,True,120,2675,105,20,180,30,Ohio
+contract_02,E_term_sheet,Cobalt Mutual Health,Marlow Children's Hospital,2025-06-19,2028-06-18,False,60,1925,145,20,180,30,Ohio
+contract_03,A_formal_articles,Redwood Community Health Plan,Larkspur Women's Health Center,2022-09-24,2025-09-23,False,90,3275,125,30,120,60,Texas
+contract_04,B_rate_tables,Pinecrest Medical Plan,Larkspur Women's Health Center,2024-03-09,2027-03-08,True,90,4175,135,30,365,90,Georgia
+contract_05,C_plain_letter,Pinecrest Medical Plan,Northgate Family Physicians,2025-08-17,2029-08-16,True,60,3975,150,15,180,60,Colorado
+contract_06,B_rate_tables,Northbridge Assurance Company,Brightwater Surgical Center,2022-09-25,2024-09-24,True,120,3350,95,15,180,60,Illinois
+contract_07,A_formal_articles,Summit Care Alliance,Hollis County General Hospital,2025-07-07,2028-07-06,True,120,3075,145,30,365,90,Illinois
+contract_08,C_plain_letter,Crestline Health Partners,St. Aldric Regional Medical Center,2023-02-17,2026-02-16,True,120,3925,130,20,120,90,Florida
+contract_09,B_rate_tables,Meridian Health Plan,Larkspur Women's Health Center,2021-01-13,2025-01-12,True,60,2575,110,20,365,45,Pennsylvania
+contract_10,A_formal_articles,Northbridge Assurance Company,Northgate Family Physicians,2024-08-07,2029-08-06,False,60,2325,125,15,365,60,Florida
+contract_11,E_term_sheet,Meridian Health Plan,St. Aldric Regional Medical Center,2025-08-17,2028-08-16,False,60,3425,100,20,90,30,Illinois
+contract_12,A_formal_articles,Lakeshore Health Insurance Co.,Westfield Cardiology Associates,2023-07-05,2027-07-04,False,180,2800,155,15,90,90,Michigan
+contract_13,E_term_sheet,Northbridge Assurance Company,Kestrel Imaging and Diagnostics,2025-12-10,2027-12-09,False,120,3900,100,20,180,30,Tennessee
+contract_14,B_rate_tables,Cobalt Mutual Health,Kestrel Imaging and Diagnostics,2023-01-03,2028-01-02,True,120,1925,95,30,120,60,Florida
+contract_15,B_rate_tables,Pinecrest Medical Plan,Oakhaven Orthopedic Group,2021-05-12,2023-05-11,False,120,2450,145,20,90,60,Colorado
+contract_16,C_plain_letter,Harborview Health Plan,Marlow Children's Hospital,2022-12-04,2027-12-03,True,60,3300,110,20,365,60,Illinois
+contract_17,B_rate_tables,Cobalt Mutual Health,Brightwater Surgical Center,2021-02-09,2024-02-08,True,120,1900,100,45,180,60,North Carolina
+contract_18,D_definitions_amendment,Pinecrest Medical Plan,Riverbend Community Hospital,2023-10-11,2025-10-10,False,120,3400,115,45,180,90,North Carolina
+contract_19,D_definitions_amendment,Summit Care Alliance,Marlow Children's Hospital,2022-07-26,2026-07-25,False,180,3200,130,20,365,45,Pennsylvania
+contract_20,C_plain_letter,Evergreen Health Partners,Ridgeway Rehabilitation Institute,2021-08-14,2024-08-13,False,180,3375,125,20,120,30,Ohio
+contract_21,C_plain_letter,Evergreen Health Partners,Larkspur Women's Health Center,2025-09-20,2029-09-19,False,180,3750,160,45,365,45,Florida
+contract_22,D_definitions_amendment,Crestline Health Partners,Tamarack Oncology Partners,2023-04-09,2027-04-08,True,120,3525,100,20,120,45,Georgia
+contract_23,E_term_sheet,Harborview Health Plan,Northgate Family Physicians,2024-10-23,2026-10-22,False,180,3325,95,30,180,90,Colorado
+contract_24,E_term_sheet,Northbridge Assurance Company,Ridgeway Rehabilitation Institute,2025-01-13,2027-01-12,True,60,3850,125,20,365,45,Colorado
+contract_25,C_plain_letter,Evergreen Health Partners,St. Aldric Regional Medical Center,2025-01-12,2028-01-11,False,60,3875,95,15,120,45,Michigan
+contract_26,D_definitions_amendment,Lakeshore Health Insurance Co.,Oakhaven Orthopedic Group,2025-10-24,2027-10-23,True,90,2775,100,15,180,90,Tennessee
+contract_27,D_definitions_amendment,Cobalt Mutual Health,Northgate Family Physicians,2023-02-17,2027-02-16,False,60,3125,160,45,90,90,Washington
+contract_28,A_formal_articles,Pinecrest Medical Plan,Tamarack Oncology Partners,2025-05-11,2028-05-10,True,60,2675,130,20,365,90,Florida
+contract_29,D_definitions_amendment,Cobalt Mutual Health,Westfield Cardiology Associates,2021-04-24,2026-04-23,True,180,3575,155,20,365,90,Texas
+contract_30,A_formal_articles,Lakeshore Health Insurance Co.,Tamarack Oncology Partners,2024-05-10,2028-05-09,False,90,2175,150,20,180,30,Tennessee

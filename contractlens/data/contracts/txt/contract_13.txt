@@ -1,0 +1,26 @@
+                          TERM SHEET - PARTICIPATION AGREEMENT
+========================================================================================
+
+Item              | Term
+------------------+--------------------------------
+Plan (payer)      | Northbridge Assurance Company
+Provider          | Kestrel Imaging and Diagnostics
+Eff. date         | 10 Dec 2025
+Term              | 2 yrs
+Exp. date         | 09 Dec 2027
+Auto-renew        | N
+Term. w/o cause   | 120d written notice
+IP acute per diem | $3,900
+OP general        | 100% of MCR FS
+CCP               | 20d from receipt
+Timely filing     | 180d from DOS
+Cred. SLA         | 30d from complete app
+Gov. law          | State of Tennessee
+
+Abbreviations: MCR FS = Medicare fee schedule; CCP = clean claim payment; DOS = date of
+service; IP = inpatient; OP = outpatient.
+
+Not covered by the key terms above: behavioral health IP at $4,200 per diem; ED at 115%
+of MCR FS; appeals within 150d of denial.
+
+Prof. liability cover $1,000,000 per occurrence; records retained 10 yrs.

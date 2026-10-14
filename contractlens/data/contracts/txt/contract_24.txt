@@ -1,0 +1,26 @@
+                          TERM SHEET - PARTICIPATION AGREEMENT
+========================================================================================
+
+Item              | Term
+------------------+----------------------------------
+Plan (payer)      | Northbridge Assurance Company
+Provider          | Ridgeway Rehabilitation Institute
+Eff. date         | 13 Jan 2025
+Term              | 2 yrs
+Exp. date         | 12 Jan 2027
+Auto-renew        | Y - 1-yr periods
+Term. w/o cause   | 60d written notice
+IP acute per diem | $3,850
+OP general        | 125% of MCR FS
+CCP               | 20d from receipt
+Timely filing     | 365d from DOS
+Cred. SLA         | 45d from complete app
+Gov. law          | State of Colorado
+
+Abbreviations: MCR FS = Medicare fee schedule; CCP = clean claim payment; DOS = date of
+service; IP = inpatient; OP = outpatient.
+
+Not covered by the key terms above: behavioral health IP at $4,150 per diem; ED at 135%
+of MCR FS; appeals within 150d of denial.
+
+Prof. liability cover $2,000,000 per occurrence; records retained 7 yrs.

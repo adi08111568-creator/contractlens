@@ -1,0 +1,26 @@
+                          TERM SHEET - PARTICIPATION AGREEMENT
+========================================================================================
+
+Item              | Term
+------------------+---------------------------
+Plan (payer)      | Cobalt Mutual Health
+Provider          | Marlow Children's Hospital
+Eff. date         | 19 Jun 2025
+Term              | 3 yrs
+Exp. date         | 18 Jun 2028
+Auto-renew        | N
+Term. w/o cause   | 60d written notice
+IP acute per diem | $1,925
+OP general        | 145% of MCR FS
+CCP               | 20d from receipt
+Timely filing     | 180d from DOS
+Cred. SLA         | 30d from complete app
+Gov. law          | State of Ohio
+
+Abbreviations: MCR FS = Medicare fee schedule; CCP = clean claim payment; DOS = date of
+service; IP = inpatient; OP = outpatient.
+
+Not covered by the key terms above: behavioral health IP at $2,225 per diem; ED at 135%
+of MCR FS; appeals within 210d of denial.
+
+Prof. liability cover $2,000,000 per occurrence; records retained 7 yrs.

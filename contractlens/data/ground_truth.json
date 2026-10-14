@@ -1,0 +1,512 @@
+{
+  "contract_01": {
+    "layout": "E_term_sheet",
+    "truth": {
+      "payer_name": "Redwood Community Health Plan",
+      "provider_name": "Marlow Children's Hospital",
+      "effective_date": "2021-03-23",
+      "expiry_date": "2026-03-22",
+      "auto_renewal": true,
+      "termination_notice_days": 120,
+      "inpatient_per_diem_usd": 2675,
+      "outpatient_pct_of_medicare": 105,
+      "clean_claim_payment_days": 20,
+      "timely_filing_days": 180,
+      "credentialing_sla_days": 30,
+      "governing_law": "Ohio"
+    }
+  },
+  "contract_02": {
+    "layout": "E_term_sheet",
+    "truth": {
+      "payer_name": "Cobalt Mutual Health",
+      "provider_name": "Marlow Children's Hospital",
+      "effective_date": "2025-06-19",
+      "expiry_date": "2028-06-18",
+      "auto_renewal": false,
+      "termination_notice_days": 60,
+      "inpatient_per_diem_usd": 1925,
+      "outpatient_pct_of_medicare": 145,
+      "clean_claim_payment_days": 20,
+      "timely_filing_days": 180,
+      "credentialing_sla_days": 30,
+      "governing_law": "Ohio"
+    }
+  },
+  "contract_03": {
+    "layout": "A_formal_articles",
+    "truth": {
+      "payer_name": "Redwood Community Health Plan",
+      "provider_name": "Larkspur Women's Health Center",
+      "effective_date": "2022-09-24",
+      "expiry_date": "2025-09-23",
+      "auto_renewal": false,
+      "termination_notice_days": 90,
+      "inpatient_per_diem_usd": 3275,
+      "outpatient_pct_of_medicare": 125,
+      "clean_claim_payment_days": 30,
+      "timely_filing_days": 120,
+      "credentialing_sla_days": 60,
+      "governing_law": "Texas"
+    }
+  },
+  "contract_04": {
+    "layout": "B_rate_tables",
+    "truth": {
+      "payer_name": "Pinecrest Medical Plan",
+      "provider_name": "Larkspur Women's Health Center",
+      "effective_date": "2024-03-09",
+      "expiry_date": "2027-03-08",
+      "auto_renewal": true,
+      "termination_notice_days": 90,
+      "inpatient_per_diem_usd": 4175,
+      "outpatient_pct_of_medicare": 135,
+      "clean_claim_payment_days": 30,
+      "timely_filing_days": 365,
+      "credentialing_sla_days": 90,
+      "governing_law": "Georgia"
+    }
+  },
+  "contract_05": {
+    "layout": "C_plain_letter",
+    "truth": {
+      "payer_name": "Pinecrest Medical Plan",
+      "provider_name": "Northgate Family Physicians",
+      "effective_date": "2025-08-17",
+      "expiry_date": "2029-08-16",
+      "auto_renewal": true,
+      "termination_notice_days": 60,
+      "inpatient_per_diem_usd": 3975,
+      "outpatient_pct_of_medicare": 150,
+      "clean_claim_payment_days": 15,
+      "timely_filing_days": 180,
+      "credentialing_sla_days": 60,
+      "governing_law": "Colorado"
+    }
+  },
+  "contract_06": {
+    "layout": "B_rate_tables",
+    "truth": {
+      "payer_name": "Northbridge Assurance Company",
+      "provider_name": "Brightwater Surgical Center",
+      "effective_date": "2022-09-25",
+      "expiry_date": "2024-09-24",
+      "auto_renewal": true,
+      "termination_notice_days": 120,
+      "inpatient_per_diem_usd": 3350,
+      "outpatient_pct_of_medicare": 95,
+      "clean_claim_payment_days": 15,
+      "timely_filing_days": 180,
+      "credentialing_sla_days": 60,
+      "governing_law": "Illinois"
+    }
+  },
+  "contract_07": {
+    "layout": "A_formal_articles",
+    "truth": {
+      "payer_name": "Summit Care Alliance",
+      "provider_name": "Hollis County General Hospital",
+      "effective_date": "2025-07-07",
+      "expiry_date": "2028-07-06",
+      "auto_renewal": true,
+      "termination_notice_days": 120,
+      "inpatient_per_diem_usd": 3075,
+      "outpatient_pct_of_medicare": 145,
+      "clean_claim_payment_days": 30,
+      "timely_filing_days": 365,
+      "credentialing_sla_days": 90,
+      "governing_law": "Illinois"
+    }
+  },
+  "contract_08": {
+    "layout": "C_plain_letter",
+    "truth": {
+      "payer_name": "Crestline Health Partners",
+      "provider_name": "St. Aldric Regional Medical Center",
+      "effective_date": "2023-02-17",
+      "expiry_date": "2026-02-16",
+      "auto_renewal": true,
+      "termination_notice_days": 120,
+      "inpatient_per_diem_usd": 3925,
+      "outpatient_pct_of_medicare": 130,
+      "clean_claim_payment_days": 20,
+      "timely_filing_days": 120,
+      "credentialing_sla_days": 90,
+      "governing_law": "Florida"
+    }
+  },
+  "contract_09": {
+    "layout": "B_rate_tables",
+    "truth": {
+      "payer_name": "Meridian Health Plan",
+      "provider_name": "Larkspur Women's Health Center",
+      "effective_date": "2021-01-13",
+      "expiry_date": "2025-01-12",
+      "auto_renewal": true,
+      "termination_notice_days": 60,
+      "inpatient_per_diem_usd": 2575,
+      "outpatient_pct_of_medicare": 110,
+      "clean_claim_payment_days": 20,
+      "timely_filing_days": 365,
+      "credentialing_sla_days": 45,
+      "governing_law": "Pennsylvania"
+    }
+  },
+  "contract_10": {
+    "layout": "A_formal_articles",
+    "truth": {
+      "payer_name": "Northbridge Assurance Company",
+      "provider_name": "Northgate Family Physicians",
+      "effective_date": "2024-08-07",
+      "expiry_date": "2029-08-06",
+      "auto_renewal": false,
+      "termination_notice_days": 60,
+      "inpatient_per_diem_usd": 2325,
+      "outpatient_pct_of_medicare": 125,
+      "clean_claim_payment_days": 15,
+      "timely_filing_days": 365,
+      "credentialing_sla_days": 60,
+      "governing_law": "Florida"
+    }
+  },
+  "contract_11": {
+    "layout": "E_term_sheet",
+    "truth": {
+      "payer_name": "Meridian Health Plan",
+      "provider_name": "St. Aldric Regional Medical Center",
+      "effective_date": "2025-08-17",
+      "expiry_date": "2028-08-16",
+      "auto_renewal": false,
+      "termination_notice_days": 60,
+      "inpatient_per_diem_usd": 3425,
+      "outpatient_pct_of_medicare": 100,
+      "clean_claim_payment_days": 20,
+      "timely_filing_days": 90,
+      "credentialing_sla_days": 30,
+      "governing_law": "Illinois"
+    }
+  },
+  "contract_12": {
+    "layout": "A_formal_articles",
+    "truth": {
+      "payer_name": "Lakeshore Health Insurance Co.",
+      "provider_name": "Westfield Cardiology Associates",
+      "effective_date": "2023-07-05",
+      "expiry_date": "2027-07-04",
+      "auto_renewal": false,
+      "termination_notice_days": 180,
+      "inpatient_per_diem_usd": 2800,
+      "outpatient_pct_of_medicare": 155,
+      "clean_claim_payment_days": 15,
+      "timely_filing_days": 90,
+      "credentialing_sla_days": 90,
+      "governing_law": "Michigan"
+    }
+  },
+  "contract_13": {
+    "layout": "E_term_sheet",
+    "truth": {
+      "payer_name": "Northbridge Assurance Company",
+      "provider_name": "Kestrel Imaging and Diagnostics",
+      "effective_date": "2025-12-10",
+      "expiry_date": "2027-12-09",
+      "auto_renewal": false,
+      "termination_notice_days": 120,
+      "inpatient_per_diem_usd": 3900,
+      "outpatient_pct_of_medicare": 100,
+      "clean_claim_payment_days": 20,
+      "timely_filing_days": 180,
+      "credentialing_sla_days": 30,
+      "governing_law": "Tennessee"
+    }
+  },
+  "contract_14": {
+    "layout": "B_rate_tables",
+    "truth": {
+      "payer_name": "Cobalt Mutual Health",
+      "provider_name": "Kestrel Imaging and Diagnostics",
+      "effective_date": "2023-01-03",
+      "expiry_date": "2028-01-02",
+      "auto_renewal": true,
+      "termination_notice_days": 120,
+      "inpatient_per_diem_usd": 1925,
+      "outpatient_pct_of_medicare": 95,
+      "clean_claim_payment_days": 30,
+      "timely_filing_days": 120,
+      "credentialing_sla_days": 60,
+      "governing_law": "Florida"
+    }
+  },
+  "contract_15": {
+    "layout": "B_rate_tables",
+    "truth": {
+      "payer_name": "Pinecrest Medical Plan",
+      "provider_name": "Oakhaven Orthopedic Group",
+      "effective_date": "2021-05-12",
+      "expiry_date": "2023-05-11",
+      "auto_renewal": false,
+      "termination_notice_days": 120,
+      "inpatient_per_diem_usd": 2450,
+      "outpatient_pct_of_medicare": 145,
+      "clean_claim_payment_days": 20,
+      "timely_filing_days": 90,
+      "credentialing_sla_days": 60,
+      "governing_law": "Colorado"
+    }
+  },
+  "contract_16": {
+    "layout": "C_plain_letter",
+    "truth": {
+      "payer_name": "Harborview Health Plan",
+      "provider_name": "Marlow Children's Hospital",
+      "effective_date": "2022-12-04",
+      "expiry_date": "2027-12-03",
+      "auto_renewal": true,
+      "termination_notice_days": 60,
+      "inpatient_per_diem_usd": 3300,
+      "outpatient_pct_of_medicare": 110,
+      "clean_claim_payment_days": 20,
+      "timely_filing_days": 365,
+      "credentialing_sla_days": 60,
+      "governing_law": "Illinois"
+    }
+  },
+  "contract_17": {
+    "layout": "B_rate_tables",
+    "truth": {
+      "payer_name": "Cobalt Mutual Health",
+      "provider_name": "Brightwater Surgical Center",
+      "effective_date": "2021-02-09",
+      "expiry_date": "2024-02-08",
+      "auto_renewal": true,
+      "termination_notice_days": 120,
+      "inpatient_per_diem_usd": 1900,
+      "outpatient_pct_of_medicare": 100,
+      "clean_claim_payment_days": 45,
+      "timely_filing_days": 180,
+      "credentialing_sla_days": 60,
+      "governing_law": "North Carolina"
+    }
+  },
+  "contract_18": {
+    "layout": "D_definitions_amendment",
+    "truth": {
+      "payer_name": "Pinecrest Medical Plan",
+      "provider_name": "Riverbend Community Hospital",
+      "effective_date": "2023-10-11",
+      "expiry_date": "2025-10-10",
+      "auto_renewal": false,
+      "termination_notice_days": 120,
+      "inpatient_per_diem_usd": 3400,
+      "outpatient_pct_of_medicare": 115,
+      "clean_claim_payment_days": 45,
+      "timely_filing_days": 180,
+      "credentialing_sla_days": 90,
+      "governing_law": "North Carolina"
+    }
+  },
+  "contract_19": {
+    "layout": "D_definitions_amendment",
+    "truth": {
+      "payer_name": "Summit Care Alliance",
+      "provider_name": "Marlow Children's Hospital",
+      "effective_date": "2022-07-26",
+      "expiry_date": "2026-07-25",
+      "auto_renewal": false,
+      "termination_notice_days": 180,
+      "inpatient_per_diem_usd": 3200,
+      "outpatient_pct_of_medicare": 130,
+      "clean_claim_payment_days": 20,
+      "timely_filing_days": 365,
+      "credentialing_sla_days": 45,
+      "governing_law": "Pennsylvania"
+    }
+  },
+  "contract_20": {
+    "layout": "C_plain_letter",
+    "truth": {
+      "payer_name": "Evergreen Health Partners",
+      "provider_name": "Ridgeway Rehabilitation Institute",
+      "effective_date": "2021-08-14",
+      "expiry_date": "2024-08-13",
+      "auto_renewal": false,
+      "termination_notice_days": 180,
+      "inpatient_per_diem_usd": 3375,
+      "outpatient_pct_of_medicare": 125,
+      "clean_claim_payment_days": 20,
+      "timely_filing_days": 120,
+      "credentialing_sla_days": 30,
+      "governing_law": "Ohio"
+    }
+  },
+  "contract_21": {
+    "layout": "C_plain_letter",
+    "truth": {
+      "payer_name": "Evergreen Health Partners",
+      "provider_name": "Larkspur Women's Health Center",
+      "effective_date": "2025-09-20",
+      "expiry_date": "2029-09-19",
+      "auto_renewal": false,
+      "termination_notice_days": 180,
+      "inpatient_per_diem_usd": 3750,
+      "outpatient_pct_of_medicare": 160,
+      "clean_claim_payment_days": 45,
+      "timely_filing_days": 365,
+      "credentialing_sla_days": 45,
+      "governing_law": "Florida"
+    }
+  },
+  "contract_22": {
+    "layout": "D_definitions_amendment",
+    "truth": {
+      "payer_name": "Crestline Health Partners",
+      "provider_name": "Tamarack Oncology Partners",
+      "effective_date": "2023-04-09",
+      "expiry_date": "2027-04-08",
+      "auto_renewal": true,
+      "termination_notice_days": 120,
+      "inpatient_per_diem_usd": 3525,
+      "outpatient_pct_of_medicare": 100,
+      "clean_claim_payment_days": 20,
+      "timely_filing_days": 120,
+      "credentialing_sla_days": 45,
+      "governing_law": "Georgia"
+    }
+  },
+  "contract_23": {
+    "layout": "E_term_sheet",
+    "truth": {
+      "payer_name": "Harborview Health Plan",
+      "provider_name": "Northgate Family Physicians",
+      "effective_date": "2024-10-23",
+      "expiry_date": "2026-10-22",
+      "auto_renewal": false,
+      "termination_notice_days": 180,
+      "inpatient_per_diem_usd": 3325,
+      "outpatient_pct_of_medicare": 95,
+      "clean_claim_payment_days": 30,
+      "timely_filing_days": 180,
+      "credentialing_sla_days": 90,
+      "governing_law": "Colorado"
+    }
+  },
+  "contract_24": {
+    "layout": "E_term_sheet",
+    "truth": {
+      "payer_name": "Northbridge Assurance Company",
+      "provider_name": "Ridgeway Rehabilitation Institute",
+      "effective_date": "2025-01-13",
+      "expiry_date": "2027-01-12",
+      "auto_renewal": true,
+      "termination_notice_days": 60,
+      "inpatient_per_diem_usd": 3850,
+      "outpatient_pct_of_medicare": 125,
+      "clean_claim_payment_days": 20,
+      "timely_filing_days": 365,
+      "credentialing_sla_days": 45,
+      "governing_law": "Colorado"
+    }
+  },
+  "contract_25": {
+    "layout": "C_plain_letter",
+    "truth": {
+      "payer_name": "Evergreen Health Partners",
+      "provider_name": "St. Aldric Regional Medical Center",
+      "effective_date": "2025-01-12",
+      "expiry_date": "2028-01-11",
+      "auto_renewal": false,
+      "termination_notice_days": 60,
+      "inpatient_per_diem_usd": 3875,
+      "outpatient_pct_of_medicare": 95,
+      "clean_claim_payment_days": 15,
+      "timely_filing_days": 120,
+      "credentialing_sla_days": 45,
+      "governing_law": "Michigan"
+    }
+  },
+  "contract_26": {
+    "layout": "D_definitions_amendment",
+    "truth": {
+      "payer_name": "Lakeshore Health Insurance Co.",
+      "provider_name": "Oakhaven Orthopedic Group",
+      "effective_date": "2025-10-24",
+      "expiry_date": "2027-10-23",
+      "auto_renewal": true,
+      "termination_notice_days": 90,
+      "inpatient_per_diem_usd": 2775,
+      "outpatient_pct_of_medicare": 100,
+      "clean_claim_payment_days": 15,
+      "timely_filing_days": 180,
+      "credentialing_sla_days": 90,
+      "governing_law": "Tennessee"
+    }
+  },
+  "contract_27": {
+    "layout": "D_definitions_amendment",
+    "truth": {
+      "payer_name": "Cobalt Mutual Health",
+      "provider_name": "Northgate Family Physicians",
+      "effective_date": "2023-02-17",
+      "expiry_date": "2027-02-16",
+      "auto_renewal": false,
+      "termination_notice_days": 60,
+      "inpatient_per_diem_usd": 3125,
+      "outpatient_pct_of_medicare": 160,
+      "clean_claim_payment_days": 45,
+      "timely_filing_days": 90,
+      "credentialing_sla_days": 90,
+      "governing_law": "Washington"
+    }
+  },
+  "contract_28": {
+    "layout": "A_formal_articles",
+    "truth": {
+      "payer_name": "Pinecrest Medical Plan",
+      "provider_name": "Tamarack Oncology Partners",
+      "effective_date": "2025-05-11",
+      "expiry_date": "2028-05-10",
+      "auto_renewal": true,
+      "termination_notice_days": 60,
+      "inpatient_per_diem_usd": 2675,
+      "outpatient_pct_of_medicare": 130,
+      "clean_claim_payment_days": 20,
+      "timely_filing_days": 365,
+      "credentialing_sla_days": 90,
+      "governing_law": "Florida"
+    }
+  },
+  "contract_29": {
+    "layout": "D_definitions_amendment",
+    "truth": {
+      "payer_name": "Cobalt Mutual Health",
+      "provider_name": "Westfield Cardiology Associates",
+      "effective_date": "2021-04-24",
+      "expiry_date": "2026-04-23",
+      "auto_renewal": true,
+      "termination_notice_days": 180,
+      "inpatient_per_diem_usd": 3575,
+      "outpatient_pct_of_medicare": 155,
+      "clean_claim_payment_days": 20,
+      "timely_filing_days": 365,
+      "credentialing_sla_days": 90,
+      "governing_law": "Texas"
+    }
+  },
+  "contract_30": {
+    "layout": "A_formal_articles",
+    "truth": {
+      "payer_name": "Lakeshore Health Insurance Co.",
+      "provider_name": "Tamarack Oncology Partners",
+      "effective_date": "2024-05-10",
+      "expiry_date": "2028-05-09",
+      "auto_renewal": false,
+      "termination_notice_days": 90,
+      "inpatient_per_diem_usd": 2175,
+      "outpatient_pct_of_medicare": 150,
+      "clean_claim_payment_days": 20,
+      "timely_filing_days": 180,
+      "credentialing_sla_days": 30,
+      "governing_law": "Tennessee"
+    }
+  }
+}

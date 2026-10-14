@@ -1,0 +1,52 @@
+         PARTICIPATING PROVIDER AGREEMENT - SUMMARY OF TERMS AND RATE SCHEDULE
+========================================================================================
+
+This schedule forms part of the Participating Provider Agreement between the parties
+named below and is incorporated by reference.
+
+
+SECTION 1 - AGREEMENT PARTICULARS
+
+Item                      | Detail
+--------------------------+-------------------------------------------------------------
+Payer                     | Cobalt Mutual Health
+Provider                  | Kestrel Imaging and Diagnostics
+Effective Date            | 03 Jan 2023
+Term                      | 5 years
+Expiration Date           | 02 Jan 2028
+Renewal                   | Evergreen - renews automatically for successive 12-month
+                          | periods
+Termination Without Cause | 120 days written notice
+
+
+EXHIBIT A - RATE SCHEDULE
+
+Service Category              | Methodology                | Rate
+------------------------------+----------------------------+-------------
+Inpatient - Acute (Med/Surg)  | Per diem                   | $1,925 / day
+Inpatient - Behavioral Health | Per diem                   | $1,525 / day
+Outpatient - General          | % of Medicare fee schedule | 95%
+Emergency Department          | % of Medicare fee schedule | 85%
+
+
+EXHIBIT B - ADMINISTRATIVE TERMS
+
+Item                     | Term
+-------------------------+-----------------------------------
+Clean claim payment      | Within 30 calendar days of receipt
+Timely filing            | 120 days from date of service
+Appeals window           | 270 days from denial notice
+Credentialing turnaround | 60 days from complete application
+Governing law            | State of Florida
+
+Confidentiality. Each party shall keep the financial terms of this Agreement
+confidential and shall disclose them only as required by law.
+
+Insurance. Provider shall maintain professional liability insurance of not less than
+$2,000,000 per occurrence.
+
+Records. Each party shall retain records relating to services for 7 years following the
+date of service.
+
+Disputes. The parties shall attempt in good faith to resolve any dispute through
+informal negotiation for up to 30 days before pursuing other remedies.

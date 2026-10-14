@@ -1,0 +1,52 @@
+         PARTICIPATING PROVIDER AGREEMENT - SUMMARY OF TERMS AND RATE SCHEDULE
+========================================================================================
+
+This schedule forms part of the Participating Provider Agreement between the parties
+named below and is incorporated by reference.
+
+
+SECTION 1 - AGREEMENT PARTICULARS
+
+Item                      | Detail
+--------------------------+-------------------------------------------------------------
+Payer                     | Meridian Health Plan
+Provider                  | Larkspur Women's Health Center
+Effective Date            | 13 Jan 2021
+Term                      | 4 years
+Expiration Date           | 12 Jan 2025
+Renewal                   | Evergreen - renews automatically for successive 12-month
+                          | periods
+Termination Without Cause | 60 days written notice
+
+
+EXHIBIT A - RATE SCHEDULE
+
+Service Category              | Methodology                | Rate
+------------------------------+----------------------------+-------------
+Inpatient - Acute (Med/Surg)  | Per diem                   | $2,575 / day
+Inpatient - Behavioral Health | Per diem                   | $2,975 / day
+Outpatient - General          | % of Medicare fee schedule | 110%
+Emergency Department          | % of Medicare fee schedule | 125%
+
+
+EXHIBIT B - ADMINISTRATIVE TERMS
+
+Item                     | Term
+-------------------------+-----------------------------------
+Clean claim payment      | Within 20 calendar days of receipt
+Timely filing            | 365 days from date of service
+Appeals window           | 150 days from denial notice
+Credentialing turnaround | 45 days from complete application
+Governing law            | State of Pennsylvania
+
+Confidentiality. Each party shall keep the financial terms of this Agreement
+confidential and shall disclose them only as required by law.
+
+Insurance. Provider shall maintain professional liability insurance of not less than
+$1,000,000 per occurrence.
+
+Records. Each party shall retain records relating to services for 7 years following the
+date of service.
+
+Disputes. The parties shall attempt in good faith to resolve any dispute through
+informal negotiation for up to 30 days before pursuing other remedies.
